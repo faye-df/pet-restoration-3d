@@ -2,9 +2,10 @@
 
 The numbered `round-*` folders are immutable experiment/output versions. A new
 test writes a new round instead of overwriting the previous Blender or FBX file.
-Large binary artifacts stay on this machine and are identified by SHA-256 in
-`version_manifest.json`; scripts, JSON reports, and this decision log are tracked
-in Git.
+Rejected and superseded binary artifacts stay on this machine and are identified
+by SHA-256 in `version_manifest.json`. The current Round 13 `.blend` and `.fbx`
+are stored in GitHub through Git LFS so a fresh clone can recover the usable asset.
+Scripts, JSON reports, and this decision log use normal Git.
 
 ## Status vocabulary
 
@@ -54,6 +55,8 @@ in Git.
   splaying, or mesh tearing.
 - Still requires Unity/PICO import, scale, animation-loop, and runtime performance
   checks before promotion to `stable`.
+- Its `.blend` and `.fbx` are tracked by Git LFS; earlier experimental binaries
+  are intentionally not uploaded.
 
 ## Reproduction
 
@@ -71,4 +74,3 @@ env PET_OUT=<new-round-directory> \
 
 Run `blender/round-10/audit_ab.py` after saving and reloading the result. A version
 must not be promoted based only on the in-process generator report.
-

@@ -16,6 +16,10 @@ blender/**/*.fbx
 blender/**/*.glb
 blender/**/*.obj
 
+# The current promoted candidate is recoverable from GitHub through Git LFS.
+!blender/round-13/pet_unity_canine_walk_fixed.blend
+!blender/round-13/pet_unity_canine_walk_fixed.fbx
+
 # Keep selected review stills out of Git; reports record their paths.
 blender/**/previews/frames/
 blender/**/previews/*.png

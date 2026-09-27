@@ -20,3 +20,5 @@ Do not mark this version stable until its FBX has passed a Unity/PICO import and
 runtime test. See `../VERSIONS.md` and `../version_manifest.json` for rollback and
 checksum information.
 
+The `.blend` and `.fbx` in this directory are stored in GitHub through Git LFS.
+A normal clone with Git LFS installed retrieves both files automatically.

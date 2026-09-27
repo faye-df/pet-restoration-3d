@@ -63,10 +63,12 @@
       },
       "blend": {
         "path": "blender/round-13/pet_unity_canine_walk_fixed.blend",
+        "storage": "git-lfs",
         "sha256": "5d5254ed485227250ad76d56a3915f93fa01da5207343ec2086d03a8e8e3040b"
       },
       "fbx": {
         "path": "blender/round-13/pet_unity_canine_walk_fixed.fbx",
+        "storage": "git-lfs",
         "sha256": "60b736c8d05de468f9c813ac4b3e2c0beea34a71dc24c51ced0ce13cc6565050"
       },
       "report": {
@@ -80,4 +82,3 @@
     "sha256": "8f54932be26ad007e8c913ce323990d5f88838e96a26310a73ee67ac131ed48f"
   }
 }
-
