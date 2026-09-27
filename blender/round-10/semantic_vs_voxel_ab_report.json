@@ -343,5 +343,74 @@
       "total": 45,
       "deform": 36
     }
+  },
+  "round14_motion_bridge_candidate": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-14/pet_unity_canine_motion_bridge_fixed.blend",
+    "mesh": {
+      "vertices": 21229,
+      "polygons": 23138,
+      "coverage_percent": 100.0,
+      "max_influences_per_vertex": 4
+    },
+    "cross_weight_audit": {
+      "front": {
+        "audited_vertices": 3969,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      },
+      "rear": {
+        "audited_vertices": 3983,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      }
+    },
+    "edge_stretch_audit": [
+      {
+        "frame": 1,
+        "p99_ratio": 1.1203070633612056,
+        "p999_ratio": 1.5662193225617111,
+        "max_ratio": 3.9549426637564116,
+        "edges_over_2x": 15,
+        "edges_over_5x": 0
+      },
+      {
+        "frame": 7,
+        "p99_ratio": 1.0905903952532674,
+        "p999_ratio": 1.4466687863944425,
+        "max_ratio": 2.26737672255935,
+        "edges_over_2x": 6,
+        "edges_over_5x": 0
+      },
+      {
+        "frame": 13,
+        "p99_ratio": 1.0421064217465676,
+        "p999_ratio": 1.2614459009869652,
+        "max_ratio": 1.958301485322387,
+        "edges_over_2x": 0,
+        "edges_over_5x": 0
+      },
+      {
+        "frame": 19,
+        "p99_ratio": 1.0902288187747853,
+        "p999_ratio": 1.32580823912225,
+        "max_ratio": 2.8207792783152144,
+        "edges_over_2x": 5,
+        "edges_over_5x": 0
+      },
+      {
+        "frame": 24,
+        "p99_ratio": 1.1090021153753327,
+        "p999_ratio": 1.516035629021818,
+        "max_ratio": 3.9134367960222303,
+        "edges_over_2x": 12,
+        "edges_over_5x": 0
+      }
+    ],
+    "bones": {
+      "total": 45,
+      "deform": 36
+    }
   }
 }

@@ -11,6 +11,7 @@ CASES = {
     "round11_all_limbs_poles_v1": ROOT / "blender/round-11/pet_unity_canine_walk_fixed.blend",
     "round12_all_limbs_poles_planar": ROOT / "blender/round-12/pet_unity_canine_walk_fixed.blend",
     "round13_static_bounds_candidate": ROOT / "blender/round-13/pet_unity_canine_walk_fixed.blend",
+    "round14_motion_bridge_candidate": ROOT / "blender/round-14/pet_unity_canine_motion_bridge_fixed.blend",
 }
 OUT = ROOT / "blender/round-10/semantic_vs_voxel_ab_report.json"
 

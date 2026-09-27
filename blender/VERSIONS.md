@@ -43,7 +43,7 @@ Scripts, JSON reports, and this decision log use normal Git.
 - Generator self-audit reported zero cross weights, but independent reload audit
   exposed a pose-dependent bounding-box bug in the semantic region calculation.
 
-### Round 13 — candidate (current)
+### Round 13 — superseded
 
 - Semantic regions use undeformed source vertices, independent of animation frame.
 - Independent reload audit: zero front and rear cross-weight violations.
@@ -57,6 +57,27 @@ Scripts, JSON reports, and this decision log use normal Git.
   checks before promotion to `stable`.
 - Its `.blend` and `.fbx` are tracked by Git LFS; earlier experimental binaries
   are intentionally not uploaded.
+
+### Round 14 — candidate (current)
+
+- Independent deformation analysis showed the remaining severe stretching was
+  caused by 28 real topology edges joining left and right legs, not by missing
+  bones or ordinary weight-paint noise.
+- Added a motion-driven topology repair. It removes a polygon only when an edge
+  connects opposite sides of the same limb family with at least 50% confidence
+  and stretches above 2x during sampled walk frames.
+- Removed 31 hidden inner-leg polygons and 30 now-unused edges. Vertex count,
+  UV/material data, skeleton, IK constraints, animation, and skin weights remain.
+- Maximum sampled edge stretch fell from 10.97x to 3.95x. Edges exceeding 5x
+  fell from as many as 15 per frame to zero.
+- Independent reload audit still reports 100% weight coverage, maximum four
+  influences, and zero front/rear opposite-side weights.
+- Tradeoff: boundary edges increased from 457 to 518 because the fused inner-leg
+  membrane is now an open hidden cut. No loose edges remain. This is acceptable
+  for engine testing but should eventually be replaced by local retopology and
+  hole closure for a final production pet.
+- Requires Unity/PICO import and close-range underside inspection before being
+  promoted to `stable`.
 
 ## Reproduction
 

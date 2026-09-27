@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_candidate": "round-13",
+  "current_candidate": "round-14",
   "stable_rollback": "round-09",
   "git_branch": "codex/pet-rig-pipeline",
   "versions": [
@@ -46,7 +46,7 @@
     },
     {
       "version": "round-13",
-      "status": "candidate",
+      "status": "superseded",
       "summary": "Static semantic bounds, zero four-limb cross weights after reload, pole targets and converged front IK.",
       "metrics": {
         "vertices": 21229,
@@ -75,10 +75,51 @@
         "path": "blender/round-13/rear_leg_fix_report.json",
         "sha256": "9d3bb08b104c4b8fd5c62a5de758758fb72a013b97da14689ff7a452f4dd0685"
       }
+    },
+    {
+      "version": "round-14",
+      "status": "candidate",
+      "summary": "Motion-driven removal of cross-limb mesh bridges while preserving the Round 13 skeleton, weights, materials, and gait.",
+      "metrics": {
+        "vertices": 21229,
+        "polygons": 23138,
+        "deform_bones": 36,
+        "total_blender_bones": 45,
+        "coverage_percent": 100.0,
+        "max_influences_per_vertex": 4,
+        "front_cross_weight_percent": 0.0,
+        "rear_cross_weight_percent": 0.0,
+        "removed_bridge_edges": 28,
+        "removed_polygons": 31,
+        "maximum_edge_stretch_before": 10.966255009694898,
+        "maximum_edge_stretch_after": 3.9549426637564116,
+        "edges_over_5x_after": 0,
+        "boundary_edges_before": 457,
+        "boundary_edges_after": 518,
+        "loose_edges_after": 0
+      },
+      "blend": {
+        "path": "blender/round-14/pet_unity_canine_motion_bridge_fixed.blend",
+        "storage": "git-lfs",
+        "sha256": "d351c3388afcd11f83db0901861d863f8a1301e8c1a6fc1b9647d8c8b3cad248"
+      },
+      "fbx": {
+        "path": "blender/round-14/pet_unity_canine_motion_bridge_fixed.fbx",
+        "storage": "git-lfs",
+        "sha256": "294ddabc92a601fa40ad2da7adb666e7219d6c424972e38fee69234fc9ad429c"
+      },
+      "report": {
+        "path": "blender/round-14/motion_bridge_fix_report.json",
+        "sha256": "f9babd068659cd94164932d20ede55a0ecb6bdbbca1619c36eeb6616a09128d4"
+      },
+      "integrity_report": {
+        "path": "blender/round-14/topology_integrity_report.json",
+        "sha256": "3f640900701fb7450fd441cad885e05f4aba00a724cacc0cb7c7f1860ac18214"
+      }
     }
   ],
   "comparison_report": {
     "path": "blender/round-10/semantic_vs_voxel_ab_report.json",
-    "sha256": "8f54932be26ad007e8c913ce323990d5f88838e96a26310a73ee67ac131ed48f"
+    "sha256": "4e73eef140ce6999d0d62db14df7fde915ad3eb05e70d00f6acc34a665d61304"
   }
 }

@@ -1,0 +1,657 @@
+{
+  "source": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/pet_unity_canine_walk_fixed.blend",
+  "method": {
+    "name": "motion-driven opposite-limb bridge removal",
+    "sample_frames": [
+      1,
+      7,
+      13,
+      19,
+      24
+    ],
+    "stretch_threshold": 2.0,
+    "minimum_limb_confidence": 0.5,
+    "description": "Delete only polygons incident to an edge whose endpoints are confidently driven by opposite sides of the same limb family and whose edge stretches during the gait. Skeleton and weights are unchanged."
+  },
+  "topology": {
+    "before": {
+      "vertices": 21229,
+      "edges": 44378,
+      "polygons": 23169
+    },
+    "after": {
+      "vertices": 21229,
+      "edges": 44348,
+      "polygons": 23138
+    },
+    "candidate_bridge_edges": 28,
+    "deleted_polygons": 31,
+    "loose_edges_removed": 30,
+    "boundary_edges_after": 518,
+    "nonmanifold_edges_after": 548,
+    "candidate_details": [
+      {
+        "edge_index": 13039,
+        "vertices": [
+          1598,
+          10315
+        ],
+        "family": "Front",
+        "max_ratio": 10.966255009694898,
+        "rest_length_m": 0.010352654775684113,
+        "normalized_midpoint": [
+          0.7931118778150186,
+          0.4991567570526762,
+          0.34368071581201887
+        ],
+        "endpoint_confidence": [
+          1.0000000298023224,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 13053,
+        "vertices": [
+          1608,
+          10322
+        ],
+        "family": "Front",
+        "max_ratio": 10.140755857603802,
+        "rest_length_m": 0.010871531204618923,
+        "normalized_midpoint": [
+          0.7625793884907085,
+          0.4940977332071866,
+          0.3248337030476847
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000298023224
+        ]
+      },
+      {
+        "edge_index": 13041,
+        "vertices": [
+          1607,
+          10320
+        ],
+        "family": "Front",
+        "max_ratio": 9.369273134832403,
+        "rest_length_m": 0.012193106069899933,
+        "normalized_midpoint": [
+          0.7767464483037907,
+          0.49747041547571813,
+          0.3288987396598363
+        ],
+        "endpoint_confidence": [
+          1.0000000298023224,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 13055,
+        "vertices": [
+          2104,
+          11482
+        ],
+        "family": "Front",
+        "max_ratio": 9.359071981924503,
+        "rest_length_m": 0.011665584369630373,
+        "normalized_midpoint": [
+          0.748412312262327,
+          0.4907250518240396,
+          0.31855137373799586
+        ],
+        "endpoint_confidence": [
+          1.0000000298023224,
+          0.9999999701976776
+        ]
+      },
+      {
+        "edge_index": 13654,
+        "vertices": [
+          11483,
+          2105
+        ],
+        "family": "Front",
+        "max_ratio": 8.38573879266271,
+        "rest_length_m": 0.012989640222225698,
+        "normalized_midpoint": [
+          0.7342452360339455,
+          0.4865092000951059,
+          0.31300812957651897
+        ],
+        "endpoint_confidence": [
+          0.9999999701976776,
+          1.0000000298023224
+        ]
+      },
+      {
+        "edge_index": 24366,
+        "vertices": [
+          20190,
+          8498
+        ],
+        "family": "Rear",
+        "max_ratio": 7.440722370574391,
+        "rest_length_m": 0.00381477796946034,
+        "normalized_midpoint": [
+          0.2943331760747671,
+          0.5059021282301238,
+          0.42535107134377675
+        ],
+        "endpoint_confidence": [
+          0.8450531363487244,
+          0.9999999701976776
+        ]
+      },
+      {
+        "edge_index": 13653,
+        "vertices": [
+          11340,
+          2008
+        ],
+        "family": "Front",
+        "max_ratio": 7.363180712620167,
+        "rest_length_m": 0.014767915152358353,
+        "normalized_midpoint": [
+          0.7195896405016646,
+          0.4831365187119589,
+          0.30894309296436734
+        ],
+        "endpoint_confidence": [
+          0.9999999701976776,
+          0.9999999701976776
+        ]
+      },
+      {
+        "edge_index": 13651,
+        "vertices": [
+          2010,
+          11341
+        ],
+        "family": "Front",
+        "max_ratio": 6.561237238465277,
+        "rest_length_m": 0.016610483323926645,
+        "normalized_midpoint": [
+          0.7042012660135347,
+          0.47976383732881195,
+          0.307095349049753
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 919,
+        "vertices": [
+          2149,
+          11632
+        ],
+        "family": "Front",
+        "max_ratio": 6.187176977746372,
+        "rest_length_m": 0.014913678752409305,
+        "normalized_midpoint": [
+          0.5478749410280377,
+          0.4966272451299314,
+          0.32557280061353044
+        ],
+        "endpoint_confidence": [
+          0.7228093147277832,
+          0.7217329740524292
+        ]
+      },
+      {
+        "edge_index": 13820,
+        "vertices": [
+          2138,
+          11624
+        ],
+        "family": "Front",
+        "max_ratio": 6.110077681575324,
+        "rest_length_m": 0.018337981736381924,
+        "normalized_midpoint": [
+          0.6233512473493396,
+          0.4848228594035324,
+          0.3144863247082104
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000298023224
+        ]
+      },
+      {
+        "edge_index": 917,
+        "vertices": [
+          11623,
+          2139
+        ],
+        "family": "Front",
+        "max_ratio": 6.063053460880217,
+        "rest_length_m": 0.019258583325004384,
+        "normalized_midpoint": [
+          0.5967269206638741,
+          0.48819554078667937,
+          0.3067257878491963
+        ],
+        "endpoint_confidence": [
+          1.0000000149011612,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 13662,
+        "vertices": [
+          2009,
+          11398
+        ],
+        "family": "Front",
+        "max_ratio": 5.916056928607485,
+        "rest_length_m": 0.01836477202753498,
+        "normalized_midpoint": [
+          0.6875915932656563,
+          0.4780774966372385,
+          0.3078344466155987
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000298023224
+        ]
+      },
+      {
+        "edge_index": 13818,
+        "vertices": [
+          2113,
+          11537
+        ],
+        "family": "Front",
+        "max_ratio": 5.774616335706613,
+        "rest_length_m": 0.018793455900000606,
+        "normalized_midpoint": [
+          0.6477772371672578,
+          0.4806070103307525,
+          0.3163340810404586
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000298023224
+        ]
+      },
+      {
+        "edge_index": 13664,
+        "vertices": [
+          2112,
+          11534
+        ],
+        "family": "Front",
+        "max_ratio": 5.726735024854454,
+        "rest_length_m": 0.018840484540397016,
+        "normalized_midpoint": [
+          0.6690278433021803,
+          0.4789206678684098,
+          0.3126385807935961
+        ],
+        "endpoint_confidence": [
+          1.0000000298023224,
+          0.9999999701976776
+        ]
+      },
+      {
+        "edge_index": 13040,
+        "vertices": [
+          10315,
+          10314
+        ],
+        "family": "Front",
+        "max_ratio": 5.364514999387551,
+        "rest_length_m": 0.012898471466137163,
+        "normalized_midpoint": [
+          0.7989741094618112,
+          0.5185496750057713,
+          0.3422025206803274
+        ],
+        "endpoint_confidence": [
+          1.0,
+          0.5121520832180977
+        ]
+      },
+      {
+        "edge_index": 13904,
+        "vertices": [
+          8290,
+          20046
+        ],
+        "family": "Rear",
+        "max_ratio": 4.998896333054557,
+        "rest_length_m": 0.014307996364274331,
+        "normalized_midpoint": [
+          0.4789936494132023,
+          0.49241139517176685,
+          0.3458980085095561
+        ],
+        "endpoint_confidence": [
+          0.8790459930896759,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 13902,
+        "vertices": [
+          2153,
+          11635
+        ],
+        "family": "Rear",
+        "max_ratio": 4.88317942940173,
+        "rest_length_m": 0.014259808651180858,
+        "normalized_midpoint": [
+          0.5004885197848163,
+          0.494097736748725,
+          0.3396156667822334
+        ],
+        "endpoint_confidence": [
+          0.7963081896305084,
+          0.7679252028465271
+        ]
+      },
+      {
+        "edge_index": 23920,
+        "vertices": [
+          8292,
+          20049
+        ],
+        "family": "Rear",
+        "max_ratio": 4.878255499774814,
+        "rest_length_m": 0.014465193959072137,
+        "normalized_midpoint": [
+          0.4592085970861531,
+          0.4907250562509626,
+          0.35181078903632207
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 920,
+        "vertices": [
+          11632,
+          2141
+        ],
+        "family": "Front",
+        "max_ratio": 4.869555890396298,
+        "rest_length_m": 0.026570562885482086,
+        "normalized_midpoint": [
+          0.5598436721812223,
+          0.4949409044383579,
+          0.32039911765261025
+        ],
+        "endpoint_confidence": [
+          0.7217329740524292,
+          0.9999999850988388
+        ]
+      },
+      {
+        "edge_index": 23924,
+        "vertices": [
+          8295,
+          20050
+        ],
+        "family": "Rear",
+        "max_ratio": 4.1116087314092225,
+        "rest_length_m": 0.01521394150102489,
+        "normalized_midpoint": [
+          0.4408891067746268,
+          0.4890387146740045,
+          0.35624537443139653
+        ],
+        "endpoint_confidence": [
+          1.0,
+          0.9999999701976776
+        ]
+      },
+      {
+        "edge_index": 23947,
+        "vertices": [
+          8306,
+          20066
+        ],
+        "family": "Rear",
+        "max_ratio": 3.8611952522108806,
+        "rest_length_m": 0.01311769291305364,
+        "normalized_midpoint": [
+          0.4115779157100651,
+          0.4831365275658049,
+          0.382483375271822
+        ],
+        "endpoint_confidence": [
+          0.9999999701976776,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 23928,
+        "vertices": [
+          8305,
+          20065
+        ],
+        "family": "Rear",
+        "max_ratio": 3.807536054538823,
+        "rest_length_m": 0.01469449486666818,
+        "normalized_midpoint": [
+          0.4255007322864969,
+          0.4865092054074135,
+          0.36770141153727326
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000149011612
+        ]
+      },
+      {
+        "edge_index": 23949,
+        "vertices": [
+          8308,
+          20071
+        ],
+        "family": "Rear",
+        "max_ratio": 3.3428147978425544,
+        "rest_length_m": 0.013487279998720288,
+        "normalized_midpoint": [
+          0.3959452897776351,
+          0.4789206749514866,
+          0.3924612048283734
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000298023224
+        ]
+      },
+      {
+        "edge_index": 916,
+        "vertices": [
+          2141,
+          11623
+        ],
+        "family": "Front",
+        "max_ratio": 3.311817097027216,
+        "rest_length_m": 0.029475850058793045,
+        "normalized_midpoint": [
+          0.5847581813030399,
+          0.4949409035529733,
+          0.31079083687898174
+        ],
+        "endpoint_confidence": [
+          0.9999999850988388,
+          1.0000000149011612
+        ]
+      },
+      {
+        "edge_index": 23959,
+        "vertices": [
+          8310,
+          20073
+        ],
+        "family": "Rear",
+        "max_ratio": 3.2831429541047434,
+        "rest_length_m": 0.012729667352616932,
+        "normalized_midpoint": [
+          0.37567171404286165,
+          0.5210791886992853,
+          0.39911308292098513
+        ],
+        "endpoint_confidence": [
+          1.0000000298023224,
+          0.9999999850988388
+        ]
+      },
+      {
+        "edge_index": 23961,
+        "vertices": [
+          8461,
+          20157
+        ],
+        "family": "Rear",
+        "max_ratio": 3.207301489541092,
+        "rest_length_m": 0.01058743786149706,
+        "normalized_midpoint": [
+          0.35124572422494343,
+          0.5101179768602114,
+          0.4046563208736451
+        ],
+        "endpoint_confidence": [
+          1.0,
+          1.0000000149011612
+        ]
+      },
+      {
+        "edge_index": 24302,
+        "vertices": [
+          8474,
+          20163
+        ],
+        "family": "Rear",
+        "max_ratio": 3.1887356329697694,
+        "rest_length_m": 0.009448903477265997,
+        "normalized_midpoint": [
+          0.3243771296798787,
+          0.5016862751731133,
+          0.41426459543845673
+        ],
+        "endpoint_confidence": [
+          1.0000000149011612,
+          1.0
+        ]
+      },
+      {
+        "edge_index": 23954,
+        "vertices": [
+          8310,
+          20071
+        ],
+        "family": "Rear",
+        "max_ratio": 2.9263079040386217,
+        "rest_length_m": 0.017743900624153246,
+        "normalized_midpoint": [
+          0.3856863679804487,
+          0.5008431031672304,
+          0.3939393999600649
+        ],
+        "endpoint_confidence": [
+          1.0000000298023224,
+          1.0000000298023224
+        ]
+      }
+    ]
+  },
+  "edge_stretch_before": [
+    {
+      "frame": 1,
+      "p99_ratio": 1.1259340763642003,
+      "p999_ratio": 1.997429534918125,
+      "max_ratio": 10.966255009694898,
+      "edges_over_2x": 44,
+      "edges_over_5x": 15
+    },
+    {
+      "frame": 7,
+      "p99_ratio": 1.0945595006800504,
+      "p999_ratio": 1.6708774284503494,
+      "max_ratio": 7.440722370574391,
+      "edges_over_2x": 27,
+      "edges_over_5x": 8
+    },
+    {
+      "frame": 13,
+      "p99_ratio": 1.0444525305756491,
+      "p999_ratio": 1.3223940935755647,
+      "max_ratio": 6.897114773790848,
+      "edges_over_2x": 12,
+      "edges_over_5x": 1
+    },
+    {
+      "frame": 19,
+      "p99_ratio": 1.0939438502926575,
+      "p999_ratio": 1.5786655843227677,
+      "max_ratio": 7.0461472700057834,
+      "edges_over_2x": 34,
+      "edges_over_5x": 5
+    },
+    {
+      "frame": 24,
+      "p99_ratio": 1.1150777532851868,
+      "p999_ratio": 1.9655807952007696,
+      "max_ratio": 10.793442901120802,
+      "edges_over_2x": 41,
+      "edges_over_5x": 15
+    }
+  ],
+  "edge_stretch_after": [
+    {
+      "frame": 1,
+      "p99_ratio": 1.1203070633612056,
+      "p999_ratio": 1.5662193225617111,
+      "max_ratio": 3.9549426637564116,
+      "edges_over_2x": 15,
+      "edges_over_5x": 0
+    },
+    {
+      "frame": 7,
+      "p99_ratio": 1.0905903952532674,
+      "p999_ratio": 1.4466687863944425,
+      "max_ratio": 2.26737672255935,
+      "edges_over_2x": 6,
+      "edges_over_5x": 0
+    },
+    {
+      "frame": 13,
+      "p99_ratio": 1.0421064217465676,
+      "p999_ratio": 1.2614459009869652,
+      "max_ratio": 1.958301485322387,
+      "edges_over_2x": 0,
+      "edges_over_5x": 0
+    },
+    {
+      "frame": 19,
+      "p99_ratio": 1.0902288187747853,
+      "p999_ratio": 1.32580823912225,
+      "max_ratio": 2.8207792783152144,
+      "edges_over_2x": 5,
+      "edges_over_5x": 0
+    },
+    {
+      "frame": 24,
+      "p99_ratio": 1.1090021153753327,
+      "p999_ratio": 1.516035629021818,
+      "max_ratio": 3.9134367960222303,
+      "edges_over_2x": 12,
+      "edges_over_5x": 0
+    }
+  ],
+  "outputs": {
+    "blend": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-14/pet_unity_canine_motion_bridge_fixed.blend",
+    "fbx": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-14/pet_unity_canine_motion_bridge_fixed.fbx",
+    "previews": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-14/previews"
+  },
+  "elapsed_seconds": 47.789
+}

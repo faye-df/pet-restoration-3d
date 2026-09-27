@@ -1,0 +1,7492 @@
+{
+  "source": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/pet_unity_canine_walk_fixed.blend",
+  "mesh": {
+    "vertices": 21229,
+    "edges": 44378,
+    "polygons": 23169,
+    "connected_components": 9,
+    "largest_component_sizes": [
+      20331,
+      371,
+      83,
+      75,
+      75,
+      75,
+      73,
+      73,
+      73
+    ]
+  },
+  "rest_edge_lengths_m": {
+    "min": 0.00044345762780820215,
+    "p01": 0.00044345855712890625,
+    "p50": 0.0025857855139761587,
+    "p99": 0.02367424173393483,
+    "max": 0.046679198652066003,
+    "bins": {
+      "under_0_1mm": 0,
+      "0_1_to_0_5mm": 1630,
+      "0_5_to_1mm": 6440,
+      "1_to_5mm": 23211,
+      "over_5mm": 13097
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "edges_over_2x": 44,
+      "edges_over_5x": 15,
+      "top_outliers": [
+        {
+          "edge_index": 13039,
+          "vertices": [
+            1598,
+            10315
+          ],
+          "ratio": 10.966255009694898,
+          "rest_length_m": 0.010352654775684113,
+          "posed_length_m": 0.11352985229748772,
+          "rest_midpoint_m": [
+            0.26607540249824524,
+            -0.00022173370234668255,
+            -0.09334811568260193
+          ],
+          "normalized_midpoint": [
+            0.7931118778150186,
+            0.4991567570526762,
+            0.34368071581201887
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.727962076663971
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.27203795313835144
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13053,
+          "vertices": [
+            1608,
+            10322
+          ],
+          "ratio": 10.140755857603802,
+          "rest_length_m": 0.010871531204618923,
+          "posed_length_m": 0.11024554374436185,
+          "rest_midpoint_m": [
+            0.2383592128753662,
+            -0.0015521112363785505,
+            -0.10465632379055023
+          ],
+          "normalized_midpoint": [
+            0.7625793884907085,
+            0.4940977332071866,
+            0.3248337030476847
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6560541391372681
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.34394586086273193
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6548969745635986
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.34510305523872375
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13041,
+          "vertices": [
+            1607,
+            10320
+          ],
+          "ratio": 9.369273134832403,
+          "rest_length_m": 0.012193106069899933,
+          "posed_length_m": 0.11424054113087535,
+          "rest_midpoint_m": [
+            0.2512195110321045,
+            -0.0006651929579675198,
+            -0.10221730172634125
+          ],
+          "normalized_midpoint": [
+            0.7767464483037907,
+            0.49747041547571813,
+            0.3288987396598363
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.689127504825592
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.31087252497673035
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6847777962684631
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.31522220373153687
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13055,
+          "vertices": [
+            2104,
+            11482
+          ],
+          "ratio": 9.359071981924503,
+          "rest_length_m": 0.011665584369630373,
+          "posed_length_m": 0.10917904382658403,
+          "rest_midpoint_m": [
+            0.22549889981746674,
+            -0.0024390292819589376,
+            -0.10842572152614594
+          ],
+          "normalized_midpoint": [
+            0.748412312262327,
+            0.4907250518240396,
+            0.31855137373799586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6270768642425537
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3729231655597687
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6227855682373047
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3772144019603729
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13654,
+          "vertices": [
+            11483,
+            2105
+          ],
+          "ratio": 8.38573879266271,
+          "rest_length_m": 0.012989640222225698,
+          "posed_length_m": 0.1089277299142499,
+          "rest_midpoint_m": [
+            0.21263858675956726,
+            -0.0035476768389344215,
+            -0.11175166815519333
+          ],
+          "normalized_midpoint": [
+            0.7342452360339455,
+            0.4865092000951059,
+            0.31300812957651897
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5952954888343811
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4047044813632965
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6042398810386658
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3957601487636566
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13653,
+          "vertices": [
+            11340,
+            2008
+          ],
+          "ratio": 7.363180712620167,
+          "rest_length_m": 0.014767915152358353,
+          "posed_length_m": 0.10873882801545615,
+          "rest_midpoint_m": [
+            0.19933481514453888,
+            -0.004434594884514809,
+            -0.11419069021940231
+          ],
+          "normalized_midpoint": [
+            0.7195896405016646,
+            0.4831365187119589,
+            0.30894309296436734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5744017362594604
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.42559823393821716
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5915349721908569
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4084649980068207
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 24366,
+          "vertices": [
+            20190,
+            8498
+          ],
+          "ratio": 6.752487159613471,
+          "rest_length_m": 0.00381477796946034,
+          "posed_length_m": 0.025759239255557294,
+          "rest_midpoint_m": [
+            -0.18669623136520386,
+            0.0015521046007052064,
+            -0.04434590041637421
+          ],
+          "normalized_midpoint": [
+            0.2943331760747671,
+            0.5059021282301238,
+            0.42535107134377675
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6350675225257874
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.209985613822937
+              },
+              {
+                "bone": "Tail_02",
+                "weight": 0.15494684875011444
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6452069282531738
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3547930419445038
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13651,
+          "vertices": [
+            2010,
+            11341
+          ],
+          "ratio": 6.561237238465277,
+          "rest_length_m": 0.016610483323926645,
+          "posed_length_m": 0.10898532173385399,
+          "rest_midpoint_m": [
+            0.18536585569381714,
+            -0.005321512930095196,
+            -0.11529933661222458
+          ],
+          "normalized_midpoint": [
+            0.7042012660135347,
+            0.47976383732881195,
+            0.307095349049753
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5875290036201477
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4124709963798523
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5656487345695496
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.43435126543045044
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 919,
+          "vertices": [
+            2149,
+            11632
+          ],
+          "ratio": 6.187176977746372,
+          "rest_length_m": 0.014913678752409305,
+          "posed_length_m": 0.09227356983041209,
+          "rest_midpoint_m": [
+            0.043458983302116394,
+            -0.0008869224693626165,
+            -0.10421286523342133
+          ],
+          "normalized_midpoint": [
+            0.5478749410280377,
+            0.4966272451299314,
+            0.32557280061353044
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13820,
+          "vertices": [
+            2138,
+            11624
+          ],
+          "ratio": 6.110077681575324,
+          "rest_length_m": 0.018337981736381924,
+          "posed_length_m": 0.11204649293260309,
+          "rest_midpoint_m": [
+            0.11197339743375778,
+            -0.003991135861724615,
+            -0.11086475104093552
+          ],
+          "normalized_midpoint": [
+            0.6233512473493396,
+            0.4848228594035324,
+            0.3144863247082104
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7326593399047852
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.26734066009521484
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7294161319732666
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2705838978290558
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 917,
+          "vertices": [
+            11623,
+            2139
+          ],
+          "ratio": 6.063053460880217,
+          "rest_length_m": 0.019258583325004384,
+          "posed_length_m": 0.11676582028031786,
+          "rest_midpoint_m": [
+            0.0878048837184906,
+            -0.003104217816144228,
+            -0.11552107334136963
+          ],
+          "normalized_midpoint": [
+            0.5967269206638741,
+            0.48819554078667937,
+            0.3067257878491963
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7875114679336548
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.21248853206634521
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13662,
+          "vertices": [
+            2009,
+            11398
+          ],
+          "ratio": 5.916056928607485,
+          "rest_length_m": 0.01836477202753498,
+          "posed_length_m": 0.10864703679579525,
+          "rest_midpoint_m": [
+            0.17028824985027313,
+            -0.005764971952885389,
+            -0.11485587805509567
+          ],
+          "normalized_midpoint": [
+            0.6875915932656563,
+            0.4780774966372385,
+            0.3078344466155987
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5836455821990967
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4163544178009033
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5714501142501831
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4285499155521393
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13818,
+          "vertices": [
+            2113,
+            11537
+          ],
+          "ratio": 5.774616335706613,
+          "rest_length_m": 0.018793455900000606,
+          "posed_length_m": 0.10852499744452532,
+          "rest_midpoint_m": [
+            0.13414634764194489,
+            -0.005099782720208168,
+            -0.10975609719753265
+          ],
+          "normalized_midpoint": [
+            0.6477772371672578,
+            0.4806070103307525,
+            0.3163340810404586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6542378067970276
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3457621932029724
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6627411246299744
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.337258905172348
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13664,
+          "vertices": [
+            2112,
+            11534
+          ],
+          "ratio": 5.726735024854454,
+          "rest_length_m": 0.018840484540397016,
+          "posed_length_m": 0.10789446270272048,
+          "rest_midpoint_m": [
+            0.1534368097782135,
+            -0.005543242208659649,
+            -0.11197339743375778
+          ],
+          "normalized_midpoint": [
+            0.6690278433021803,
+            0.4789206678684098,
+            0.3126385807935961
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.594715416431427
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4052846133708954
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6025954484939575
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3974045217037201
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13040,
+          "vertices": [
+            10315,
+            10314
+          ],
+          "ratio": 5.364514999387551,
+          "rest_length_m": 0.012898471466137163,
+          "posed_length_m": 0.06919404364926515,
+          "rest_midpoint_m": [
+            0.2713969051837921,
+            0.004878045059740543,
+            -0.09423503279685974
+          ],
+          "normalized_midpoint": [
+            0.7989741094618112,
+            0.5185496750057713,
+            0.3422025206803274
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3907335102558136
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3606676757335663
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.12718024849891663
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.12141857296228409
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13904,
+          "vertices": [
+            8290,
+            20046
+          ],
+          "ratio": 4.9474730915847,
+          "rest_length_m": 0.014307996364274331,
+          "posed_length_m": 0.07078842700673897,
+          "rest_midpoint_m": [
+            -0.01906873658299446,
+            -0.001995569560676813,
+            -0.09201774001121521
+          ],
+          "normalized_midpoint": [
+            0.4789936494132023,
+            0.49241139517176685,
+            0.3458980085095561
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6105262637138367
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.26851972937583923
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.1209539920091629
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6131287217140198
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3868712782859802
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 920,
+          "vertices": [
+            11632,
+            2141
+          ],
+          "ratio": 4.869555890396298,
+          "rest_length_m": 0.026570562885482086,
+          "posed_length_m": 0.12938684101014455,
+          "rest_midpoint_m": [
+            0.054323725402355194,
+            -0.00133038149215281,
+            -0.10731707513332367
+          ],
+          "normalized_midpoint": [
+            0.5598436721812223,
+            0.4949409044383579,
+            0.32039911765261025
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.8116452693939209
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.1883547157049179
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13902,
+          "vertices": [
+            2153,
+            11635
+          ],
+          "ratio": 4.852978348646578,
+          "rest_length_m": 0.014259808651180858,
+          "posed_length_m": 0.06920254264002386,
+          "rest_midpoint_m": [
+            0.0004434589936863631,
+            -0.001552110305055976,
+            -0.09578714519739151
+          ],
+          "normalized_midpoint": [
+            0.5004885197848163,
+            0.494097736748725,
+            0.3396156667822334
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.5496019124984741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2467062771320343
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2036917805671692
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.5595359206199646
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2320747971534729
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.2083892822265625
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23920,
+          "vertices": [
+            8292,
+            20049
+          ],
+          "ratio": 4.838732773383559,
+          "rest_length_m": 0.014465193959072137,
+          "posed_length_m": 0.06999320808311223,
+          "rest_midpoint_m": [
+            -0.037028826773166656,
+            -0.0024390281178057194,
+            -0.08847007155418396
+          ],
+          "normalized_midpoint": [
+            0.4592085970861531,
+            0.4907250562509626,
+            0.35181078903632207
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6385188698768616
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3614811301231384
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6405642032623291
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3594357967376709
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23924,
+          "vertices": [
+            8295,
+            20050
+          ],
+          "ratio": 4.069071695524469,
+          "rest_length_m": 0.01521394150102489,
+          "posed_length_m": 0.06190661873918544,
+          "rest_midpoint_m": [
+            -0.053658537566661835,
+            -0.0028824873734265566,
+            -0.08580932021141052
+          ],
+          "normalized_midpoint": [
+            0.4408891067746268,
+            0.4890387146740045,
+            0.35624537443139653
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6863464713096619
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.31365352869033813
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6945408582687378
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3054591119289398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 27610,
+          "vertices": [
+            10316,
+            10317
+          ],
+          "ratio": 3.9549426637564116,
+          "rest_length_m": 0.016651858861757834,
+          "posed_length_m": 0.06585714704321634,
+          "rest_midpoint_m": [
+            0.2720620930194855,
+            0.01374722458422184,
+            -0.08558759093284607
+          ],
+          "normalized_midpoint": [
+            0.7997068884176604,
+            0.5522764852957026,
+            0.3566149232143194
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7316489815711975
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2683510482311249
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3963877856731415
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3718280494213104
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13523180782794952
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.09655236452817917
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23947,
+          "vertices": [
+            8306,
+            20066
+          ],
+          "ratio": 3.805519170461897,
+          "rest_length_m": 0.01311769291305364,
+          "posed_length_m": 0.04991963185285779,
+          "rest_midpoint_m": [
+            -0.0802660807967186,
+            -0.004434592556208372,
+            -0.07006651908159256
+          ],
+          "normalized_midpoint": [
+            0.4115779157100651,
+            0.4831365275658049,
+            0.382483375271822
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8027905821800232
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19720938801765442
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8113185167312622
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.1886814832687378
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23928,
+          "vertices": [
+            8305,
+            20065
+          ],
+          "ratio": 3.7595965679065224,
+          "rest_length_m": 0.01469449486666818,
+          "posed_length_m": 0.0552453724678457,
+          "rest_midpoint_m": [
+            -0.06762749701738358,
+            -0.0035476754419505596,
+            -0.07893569767475128
+          ],
+          "normalized_midpoint": [
+            0.4255007322864969,
+            0.4865092054074135,
+            0.36770141153727326
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7483140826225281
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2516859173774719
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.757538378238678
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.24246163666248322
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13894,
+          "vertices": [
+            2152,
+            2149
+          ],
+          "ratio": 3.487658657913587,
+          "rest_length_m": 0.021734015989658594,
+          "posed_length_m": 0.07580082903756513,
+          "rest_midpoint_m": [
+            0.03281596675515175,
+            -0.007760536856949329,
+            -0.10155210644006729
+          ],
+          "normalized_midpoint": [
+            0.536150465422978,
+            0.4704889661813116,
+            0.3300073984262388
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.30311119556427
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.2675345242023468
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2460518181324005
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.18330246210098267
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13885,
+          "vertices": [
+            2150,
+            2148
+          ],
+          "ratio": 3.486298232545041,
+          "rest_length_m": 0.022287951713988972,
+          "posed_length_m": 0.07770244666752897,
+          "rest_midpoint_m": [
+            0.0330376960337162,
+            -0.0221729539334774,
+            -0.0944567620754242
+          ],
+          "normalized_midpoint": [
+            0.5363947250749276,
+            0.4156828981320963,
+            0.3418329718974045
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.30025359988212585
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2532346248626709
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.24983343482017517
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19667832553386688
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7214202880859375
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15866881608963013
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.11991086602210999
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13883,
+          "vertices": [
+            2146,
+            2142
+          ],
+          "ratio": 3.41874931447808,
+          "rest_length_m": 0.02270319425166167,
+          "posed_length_m": 0.07761652978433102,
+          "rest_midpoint_m": [
+            0.0330376960337162,
+            -0.03747228905558586,
+            -0.08425720781087875
+          ],
+          "normalized_midpoint": [
+            0.5363947250749276,
+            0.35750414869973407,
+            0.35883222832949047
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.357262521982193
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.24524496495723724
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2047552764415741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19273725152015686
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7247468829154968
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15294398367404938
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.122309111058712
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 27614,
+          "vertices": [
+            10319,
+            10318
+          ],
+          "ratio": 3.3432803107511573,
+          "rest_length_m": 0.016909677656341895,
+          "posed_length_m": 0.05653379236959663,
+          "rest_midpoint_m": [
+            0.2738359272480011,
+            0.023059863597154617,
+            -0.07804878056049347
+          ],
+          "normalized_midpoint": [
+            0.801660965633258,
+            0.5876896380479766,
+            0.36917960666896477
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7410303950309753
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.25896960496902466
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.4356614649295807
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.33298197388648987
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13675455749034882
+              },
+              {
+                "bone": "Jaw",
+                "weight": 0.09460201859474182
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 916,
+          "vertices": [
+            2141,
+            11623
+          ],
+          "ratio": 3.311817097027216,
+          "rest_length_m": 0.029475850058793045,
+          "posed_length_m": 0.09761862417412148,
+          "rest_midpoint_m": [
+            0.0769401341676712,
+            -0.0013303817249834538,
+            -0.11308204382658005
+          ],
+          "normalized_midpoint": [
+            0.5847581813030399,
+            0.4949409035529733,
+            0.31079083687898174
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.8116452693939209
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.1883547157049179
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23949,
+          "vertices": [
+            8308,
+            20071
+          ],
+          "ratio": 3.2930304257814513,
+          "rest_length_m": 0.013487279998720288,
+          "posed_length_m": 0.044414023396819526,
+          "rest_midpoint_m": [
+            -0.0944567620754242,
+            -0.0055432403460145,
+            -0.06407982110977173
+          ],
+          "normalized_midpoint": [
+            0.3959452897776351,
+            0.4789206749514866,
+            0.3924612048283734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8462478518486023
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1537521481513977
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8483459949493408
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.15165403485298157
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23959,
+          "vertices": [
+            8310,
+            20073
+          ],
+          "ratio": 3.2337459645645303,
+          "rest_length_m": 0.012729667352616932,
+          "posed_length_m": 0.041164510431773854,
+          "rest_midpoint_m": [
+            -0.1128603145480156,
+            0.005543234292417765,
+            -0.06008869409561157
+          ],
+          "normalized_midpoint": [
+            0.37567171404286165,
+            0.5210791886992853,
+            0.39911308292098513
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8593448996543884
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.14065513014793396
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8634148240089417
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.13658516108989716
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "edges_over_2x": 27,
+      "edges_over_5x": 8,
+      "top_outliers": [
+        {
+          "edge_index": 24366,
+          "vertices": [
+            20190,
+            8498
+          ],
+          "ratio": 7.440722370574391,
+          "rest_length_m": 0.00381477796946034,
+          "posed_length_m": 0.0283847037761379,
+          "rest_midpoint_m": [
+            -0.18669623136520386,
+            0.0015521046007052064,
+            -0.04434590041637421
+          ],
+          "normalized_midpoint": [
+            0.2943331760747671,
+            0.5059021282301238,
+            0.42535107134377675
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6350675225257874
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.209985613822937
+              },
+              {
+                "bone": "Tail_02",
+                "weight": 0.15494684875011444
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6452069282531738
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3547930419445038
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 919,
+          "vertices": [
+            2149,
+            11632
+          ],
+          "ratio": 5.976684269565923,
+          "rest_length_m": 0.014913678752409305,
+          "posed_length_m": 0.08913434920088423,
+          "rest_midpoint_m": [
+            0.043458983302116394,
+            -0.0008869224693626165,
+            -0.10421286523342133
+          ],
+          "normalized_midpoint": [
+            0.5478749410280377,
+            0.4966272451299314,
+            0.32557280061353044
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13053,
+          "vertices": [
+            1608,
+            10322
+          ],
+          "ratio": 5.559177386524505,
+          "rest_length_m": 0.010871531204618923,
+          "posed_length_m": 0.060436770429613026,
+          "rest_midpoint_m": [
+            0.2383592128753662,
+            -0.0015521112363785505,
+            -0.10465632379055023
+          ],
+          "normalized_midpoint": [
+            0.7625793884907085,
+            0.4940977332071866,
+            0.3248337030476847
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6560541391372681
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.34394586086273193
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6548969745635986
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.34510305523872375
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 917,
+          "vertices": [
+            11623,
+            2139
+          ],
+          "ratio": 5.539226599751296,
+          "rest_length_m": 0.019258583325004384,
+          "posed_length_m": 0.10667765702739104,
+          "rest_midpoint_m": [
+            0.0878048837184906,
+            -0.003104217816144228,
+            -0.11552107334136963
+          ],
+          "normalized_midpoint": [
+            0.5967269206638741,
+            0.48819554078667937,
+            0.3067257878491963
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7875114679336548
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.21248853206634521
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13055,
+          "vertices": [
+            2104,
+            11482
+          ],
+          "ratio": 5.527826603296904,
+          "rest_length_m": 0.011665584369630373,
+          "posed_length_m": 0.06448532762144732,
+          "rest_midpoint_m": [
+            0.22549889981746674,
+            -0.0024390292819589376,
+            -0.10842572152614594
+          ],
+          "normalized_midpoint": [
+            0.748412312262327,
+            0.4907250518240396,
+            0.31855137373799586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6270768642425537
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3729231655597687
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6227855682373047
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3772144019603729
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13820,
+          "vertices": [
+            2138,
+            11624
+          ],
+          "ratio": 5.419133386843595,
+          "rest_length_m": 0.018337981736381924,
+          "posed_length_m": 0.09937596907495536,
+          "rest_midpoint_m": [
+            0.11197339743375778,
+            -0.003991135861724615,
+            -0.11086475104093552
+          ],
+          "normalized_midpoint": [
+            0.6233512473493396,
+            0.4848228594035324,
+            0.3144863247082104
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7326593399047852
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.26734066009521484
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7294161319732666
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2705838978290558
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13654,
+          "vertices": [
+            11483,
+            2105
+          ],
+          "ratio": 5.275609929665222,
+          "rest_length_m": 0.012989640222225698,
+          "posed_length_m": 0.06852827493915266,
+          "rest_midpoint_m": [
+            0.21263858675956726,
+            -0.0035476768389344215,
+            -0.11175166815519333
+          ],
+          "normalized_midpoint": [
+            0.7342452360339455,
+            0.4865092000951059,
+            0.31300812957651897
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5952954888343811
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4047044813632965
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6042398810386658
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3957601487636566
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13039,
+          "vertices": [
+            1598,
+            10315
+          ],
+          "ratio": 5.231672127816645,
+          "rest_length_m": 0.010352654775684113,
+          "posed_length_m": 0.054161695438854456,
+          "rest_midpoint_m": [
+            0.26607540249824524,
+            -0.00022173370234668255,
+            -0.09334811568260193
+          ],
+          "normalized_midpoint": [
+            0.7931118778150186,
+            0.4991567570526762,
+            0.34368071581201887
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.727962076663971
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.27203795313835144
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13653,
+          "vertices": [
+            11340,
+            2008
+          ],
+          "ratio": 4.929969254986944,
+          "rest_length_m": 0.014767915152358353,
+          "posed_length_m": 0.07280536766138251,
+          "rest_midpoint_m": [
+            0.19933481514453888,
+            -0.004434594884514809,
+            -0.11419069021940231
+          ],
+          "normalized_midpoint": [
+            0.7195896405016646,
+            0.4831365187119589,
+            0.30894309296436734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5744017362594604
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.42559823393821716
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5915349721908569
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4084649980068207
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13818,
+          "vertices": [
+            2113,
+            11537
+          ],
+          "ratio": 4.895312202259599,
+          "rest_length_m": 0.018793455900000606,
+          "posed_length_m": 0.09199983398990062,
+          "rest_midpoint_m": [
+            0.13414634764194489,
+            -0.005099782720208168,
+            -0.10975609719753265
+          ],
+          "normalized_midpoint": [
+            0.6477772371672578,
+            0.4806070103307525,
+            0.3163340810404586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6542378067970276
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3457621932029724
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6627411246299744
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.337258905172348
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13041,
+          "vertices": [
+            1607,
+            10320
+          ],
+          "ratio": 4.71051823799872,
+          "rest_length_m": 0.012193106069899933,
+          "posed_length_m": 0.05743584852011653,
+          "rest_midpoint_m": [
+            0.2512195110321045,
+            -0.0006651929579675198,
+            -0.10221730172634125
+          ],
+          "normalized_midpoint": [
+            0.7767464483037907,
+            0.49747041547571813,
+            0.3288987396598363
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.689127504825592
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.31087252497673035
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6847777962684631
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.31522220373153687
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13651,
+          "vertices": [
+            2010,
+            11341
+          ],
+          "ratio": 4.668832890480806,
+          "rest_length_m": 0.016610483323926645,
+          "posed_length_m": 0.07755157086953166,
+          "rest_midpoint_m": [
+            0.18536585569381714,
+            -0.005321512930095196,
+            -0.11529933661222458
+          ],
+          "normalized_midpoint": [
+            0.7042012660135347,
+            0.47976383732881195,
+            0.307095349049753
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5875290036201477
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4124709963798523
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5656487345695496
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.43435126543045044
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13664,
+          "vertices": [
+            2112,
+            11534
+          ],
+          "ratio": 4.592493436272238,
+          "rest_length_m": 0.018840484540397016,
+          "posed_length_m": 0.08652480158796187,
+          "rest_midpoint_m": [
+            0.1534368097782135,
+            -0.005543242208659649,
+            -0.11197339743375778
+          ],
+          "normalized_midpoint": [
+            0.6690278433021803,
+            0.4789206678684098,
+            0.3126385807935961
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.594715416431427
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4052846133708954
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6025954484939575
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3974045217037201
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13662,
+          "vertices": [
+            2009,
+            11398
+          ],
+          "ratio": 4.482835239265906,
+          "rest_length_m": 0.01836477202753498,
+          "posed_length_m": 0.08232624720611859,
+          "rest_midpoint_m": [
+            0.17028824985027313,
+            -0.005764971952885389,
+            -0.11485587805509567
+          ],
+          "normalized_midpoint": [
+            0.6875915932656563,
+            0.4780774966372385,
+            0.3078344466155987
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5836455821990967
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4163544178009033
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5714501142501831
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4285499155521393
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 920,
+          "vertices": [
+            11632,
+            2141
+          ],
+          "ratio": 3.9815029572120144,
+          "rest_length_m": 0.026570562885482086,
+          "posed_length_m": 0.10579077470333471,
+          "rest_midpoint_m": [
+            0.054323725402355194,
+            -0.00133038149215281,
+            -0.10731707513332367
+          ],
+          "normalized_midpoint": [
+            0.5598436721812223,
+            0.4949409044383579,
+            0.32039911765261025
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.8116452693939209
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.1883547157049179
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 916,
+          "vertices": [
+            2141,
+            11623
+          ],
+          "ratio": 3.2293307228341073,
+          "rest_length_m": 0.029475850058793045,
+          "posed_length_m": 0.09518726817651191,
+          "rest_midpoint_m": [
+            0.0769401341676712,
+            -0.0013303817249834538,
+            -0.11308204382658005
+          ],
+          "normalized_midpoint": [
+            0.5847581813030399,
+            0.4949409035529733,
+            0.31079083687898174
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.8116452693939209
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.1883547157049179
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13040,
+          "vertices": [
+            10315,
+            10314
+          ],
+          "ratio": 3.0047499942951745,
+          "rest_length_m": 0.012898471466137163,
+          "posed_length_m": 0.038756682064292114,
+          "rest_midpoint_m": [
+            0.2713969051837921,
+            0.004878045059740543,
+            -0.09423503279685974
+          ],
+          "normalized_midpoint": [
+            0.7989741094618112,
+            0.5185496750057713,
+            0.3422025206803274
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3907335102558136
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3606676757335663
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.12718024849891663
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.12141857296228409
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 24302,
+          "vertices": [
+            8474,
+            20163
+          ],
+          "ratio": 2.7503046902783486,
+          "rest_length_m": 0.009448903477265997,
+          "posed_length_m": 0.025987363551512068,
+          "rest_midpoint_m": [
+            -0.15942351520061493,
+            0.000443456694483757,
+            -0.0509977862238884
+          ],
+          "normalized_midpoint": [
+            0.3243771296798787,
+            0.5016862751731133,
+            0.41426459543845673
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7557361721992493
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.24426384270191193
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.7491689324378967
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.25083106756210327
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23961,
+          "vertices": [
+            8461,
+            20157
+          ],
+          "ratio": 2.406756146900225,
+          "rest_length_m": 0.01058743786149706,
+          "posed_length_m": 0.02548138115308222,
+          "rest_midpoint_m": [
+            -0.1350332647562027,
+            0.0026607513427734375,
+            -0.05676275119185448
+          ],
+          "normalized_midpoint": [
+            0.35124572422494343,
+            0.5101179768602114,
+            0.4046563208736451
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8284185528755188
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1715814471244812
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8233932256698608
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.17660678923130035
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13894,
+          "vertices": [
+            2152,
+            2149
+          ],
+          "ratio": 2.26737672255935,
+          "rest_length_m": 0.021734015989658594,
+          "posed_length_m": 0.04927920194268461,
+          "rest_midpoint_m": [
+            0.03281596675515175,
+            -0.007760536856949329,
+            -0.10155210644006729
+          ],
+          "normalized_midpoint": [
+            0.536150465422978,
+            0.4704889661813116,
+            0.3300073984262388
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.30311119556427
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.2675345242023468
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2460518181324005
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.18330246210098267
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 29692,
+          "vertices": [
+            11639,
+            11637
+          ],
+          "ratio": 2.155141238685205,
+          "rest_length_m": 0.022287949663459098,
+          "posed_length_m": 0.048033679445460734,
+          "rest_midpoint_m": [
+            0.03126385807991028,
+            0.033259421586990356,
+            -0.09223946928977966
+          ],
+          "normalized_midpoint": [
+            0.5344406437555053,
+            0.6264754757249359,
+            0.34552845972663326
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.42918866872787476
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3803997337818146
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.19041161239147186
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7138906717300415
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.1547786444425583
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13133065402507782
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 27610,
+          "vertices": [
+            10316,
+            10317
+          ],
+          "ratio": 2.1397637499904154,
+          "rest_length_m": 0.016651858861757834,
+          "posed_length_m": 0.03563104396234607,
+          "rest_midpoint_m": [
+            0.2720620930194855,
+            0.01374722458422184,
+            -0.08558759093284607
+          ],
+          "normalized_midpoint": [
+            0.7997068884176604,
+            0.5522764852957026,
+            0.3566149232143194
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7316489815711975
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2683510482311249
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3963877856731415
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3718280494213104
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13523180782794952
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.09655236452817917
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 42483,
+          "vertices": [
+            20048,
+            20054
+          ],
+          "ratio": 2.1326098465713192,
+          "rest_length_m": 0.01636598054242909,
+          "posed_length_m": 0.034902251253578896,
+          "rest_midpoint_m": [
+            -0.019955653697252274,
+            0.02616407722234726,
+            -0.08536586165428162
+          ],
+          "normalized_midpoint": [
+            0.47801661080540353,
+            0.5994940246597602,
+            0.3569844719972423
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6163290739059448
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.38367095589637756
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.5928855538368225
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.2509547770023346
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.1561596542596817
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13902,
+          "vertices": [
+            2153,
+            11635
+          ],
+          "ratio": 2.10074520769086,
+          "rest_length_m": 0.014259808651180858,
+          "posed_length_m": 0.029956224686556853,
+          "rest_midpoint_m": [
+            0.0004434589936863631,
+            -0.001552110305055976,
+            -0.09578714519739151
+          ],
+          "normalized_midpoint": [
+            0.5004885197848163,
+            0.494097736748725,
+            0.3396156667822334
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.5496019124984741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2467062771320343
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2036917805671692
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.5595359206199646
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2320747971534729
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.2083892822265625
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13883,
+          "vertices": [
+            2146,
+            2142
+          ],
+          "ratio": 2.0629139335242197,
+          "rest_length_m": 0.02270319425166167,
+          "posed_length_m": 0.04683473575725983,
+          "rest_midpoint_m": [
+            0.0330376960337162,
+            -0.03747228905558586,
+            -0.08425720781087875
+          ],
+          "normalized_midpoint": [
+            0.5363947250749276,
+            0.35750414869973407,
+            0.35883222832949047
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.357262521982193
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.24524496495723724
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2047552764415741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19273725152015686
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7247468829154968
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15294398367404938
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.122309111058712
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23959,
+          "vertices": [
+            8310,
+            20073
+          ],
+          "ratio": 2.0538830552332525,
+          "rest_length_m": 0.012729667352616932,
+          "posed_length_m": 0.026145248074295857,
+          "rest_midpoint_m": [
+            -0.1128603145480156,
+            0.005543234292417765,
+            -0.06008869409561157
+          ],
+          "normalized_midpoint": [
+            0.37567171404286165,
+            0.5210791886992853,
+            0.39911308292098513
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8593448996543884
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.14065513014793396
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8634148240089417
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.13658516108989716
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 29699,
+          "vertices": [
+            11640,
+            11638
+          ],
+          "ratio": 2.038306150440458,
+          "rest_length_m": 0.02261206161083259,
+          "posed_length_m": 0.046090304255498635,
+          "rest_midpoint_m": [
+            0.030376940965652466,
+            0.047671839594841,
+            -0.08048780262470245
+          ],
+          "normalized_midpoint": [
+            0.5334636051477065,
+            0.6812815473156896,
+            0.36511457005681314
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.4083055257797241
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.4010055959224701
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.1906888633966446
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.693619966506958
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.15340682864189148
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.15297317504882812
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "edges_over_2x": 12,
+      "edges_over_5x": 1,
+      "top_outliers": [
+        {
+          "edge_index": 24366,
+          "vertices": [
+            20190,
+            8498
+          ],
+          "ratio": 6.897114773790848,
+          "rest_length_m": 0.00381477796946034,
+          "posed_length_m": 0.02631096149189676,
+          "rest_midpoint_m": [
+            -0.18669623136520386,
+            0.0015521046007052064,
+            -0.04434590041637421
+          ],
+          "normalized_midpoint": [
+            0.2943331760747671,
+            0.5059021282301238,
+            0.42535107134377675
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6350675225257874
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.209985613822937
+              },
+              {
+                "bone": "Tail_02",
+                "weight": 0.15494684875011444
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6452069282531738
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3547930419445038
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 24302,
+          "vertices": [
+            8474,
+            20163
+          ],
+          "ratio": 2.9925913664973,
+          "rest_length_m": 0.009448903477265997,
+          "posed_length_m": 0.02827670696893254,
+          "rest_midpoint_m": [
+            -0.15942351520061493,
+            0.000443456694483757,
+            -0.0509977862238884
+          ],
+          "normalized_midpoint": [
+            0.3243771296798787,
+            0.5016862751731133,
+            0.41426459543845673
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7557361721992493
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.24426384270191193
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.7491689324378967
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.25083106756210327
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23961,
+          "vertices": [
+            8461,
+            20157
+          ],
+          "ratio": 2.7758043536217683,
+          "rest_length_m": 0.01058743786149706,
+          "posed_length_m": 0.02938865610964348,
+          "rest_midpoint_m": [
+            -0.1350332647562027,
+            0.0026607513427734375,
+            -0.05676275119185448
+          ],
+          "normalized_midpoint": [
+            0.35124572422494343,
+            0.5101179768602114,
+            0.4046563208736451
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8284185528755188
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1715814471244812
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8233932256698608
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.17660678923130035
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 919,
+          "vertices": [
+            2149,
+            11632
+          ],
+          "ratio": 2.4529775881249027,
+          "rest_length_m": 0.014913678752409305,
+          "posed_length_m": 0.03658291973615459,
+          "rest_midpoint_m": [
+            0.043458983302116394,
+            -0.0008869224693626165,
+            -0.10421286523342133
+          ],
+          "normalized_midpoint": [
+            0.5478749410280377,
+            0.4966272451299314,
+            0.32557280061353044
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23959,
+          "vertices": [
+            8310,
+            20073
+          ],
+          "ratio": 2.2914772260425424,
+          "rest_length_m": 0.012729667352616932,
+          "posed_length_m": 0.029169742833618964,
+          "rest_midpoint_m": [
+            -0.1128603145480156,
+            0.005543234292417765,
+            -0.06008869409561157
+          ],
+          "normalized_midpoint": [
+            0.37567171404286165,
+            0.5210791886992853,
+            0.39911308292098513
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8593448996543884
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.14065513014793396
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8634148240089417
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.13658516108989716
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23947,
+          "vertices": [
+            8306,
+            20066
+          ],
+          "ratio": 2.263434970362744,
+          "rest_length_m": 0.01311769291305364,
+          "posed_length_m": 0.029691044869885146,
+          "rest_midpoint_m": [
+            -0.0802660807967186,
+            -0.004434592556208372,
+            -0.07006651908159256
+          ],
+          "normalized_midpoint": [
+            0.4115779157100651,
+            0.4831365275658049,
+            0.382483375271822
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8027905821800232
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19720938801765442
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8113185167312622
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.1886814832687378
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23949,
+          "vertices": [
+            8308,
+            20071
+          ],
+          "ratio": 2.2098441548610634,
+          "rest_length_m": 0.013487279998720288,
+          "posed_length_m": 0.029804786870146562,
+          "rest_midpoint_m": [
+            -0.0944567620754242,
+            -0.0055432403460145,
+            -0.06407982110977173
+          ],
+          "normalized_midpoint": [
+            0.3959452897776351,
+            0.4789206749514866,
+            0.3924612048283734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8462478518486023
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1537521481513977
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8483459949493408
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.15165403485298157
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13039,
+          "vertices": [
+            1598,
+            10315
+          ],
+          "ratio": 2.0975034006477338,
+          "rest_length_m": 0.010352654775684113,
+          "posed_length_m": 0.02171472859772943,
+          "rest_midpoint_m": [
+            0.26607540249824524,
+            -0.00022173370234668255,
+            -0.09334811568260193
+          ],
+          "normalized_midpoint": [
+            0.7931118778150186,
+            0.4991567570526762,
+            0.34368071581201887
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.727962076663971
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.27203795313835144
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23928,
+          "vertices": [
+            8305,
+            20065
+          ],
+          "ratio": 2.0897844181451206,
+          "rest_length_m": 0.01469449486666818,
+          "posed_length_m": 0.030708326404876623,
+          "rest_midpoint_m": [
+            -0.06762749701738358,
+            -0.0035476754419505596,
+            -0.07893569767475128
+          ],
+          "normalized_midpoint": [
+            0.4255007322864969,
+            0.4865092054074135,
+            0.36770141153727326
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7483140826225281
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2516859173774719
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.757538378238678
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.24246163666248322
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23920,
+          "vertices": [
+            8292,
+            20049
+          ],
+          "ratio": 2.057527565830155,
+          "rest_length_m": 0.014465193959072137,
+          "posed_length_m": 0.029762535315870756,
+          "rest_midpoint_m": [
+            -0.037028826773166656,
+            -0.0024390281178057194,
+            -0.08847007155418396
+          ],
+          "normalized_midpoint": [
+            0.4592085970861531,
+            0.4907250562509626,
+            0.35181078903632207
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6385188698768616
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3614811301231384
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6405642032623291
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3594357967376709
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23924,
+          "vertices": [
+            8295,
+            20050
+          ],
+          "ratio": 2.006356461519156,
+          "rest_length_m": 0.01521394150102489,
+          "posed_length_m": 0.030524589835755733,
+          "rest_midpoint_m": [
+            -0.053658537566661835,
+            -0.0028824873734265566,
+            -0.08580932021141052
+          ],
+          "normalized_midpoint": [
+            0.4408891067746268,
+            0.4890387146740045,
+            0.35624537443139653
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6863464713096619
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.31365352869033813
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6945408582687378
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3054591119289398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 917,
+          "vertices": [
+            11623,
+            2139
+          ],
+          "ratio": 2.0030376523358044,
+          "rest_length_m": 0.019258583325004384,
+          "posed_length_m": 0.03857566753063025,
+          "rest_midpoint_m": [
+            0.0878048837184906,
+            -0.003104217816144228,
+            -0.11552107334136963
+          ],
+          "normalized_midpoint": [
+            0.5967269206638741,
+            0.48819554078667937,
+            0.3067257878491963
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7875114679336548
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.21248853206634521
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "edges_over_2x": 34,
+      "edges_over_5x": 5,
+      "top_outliers": [
+        {
+          "edge_index": 13039,
+          "vertices": [
+            1598,
+            10315
+          ],
+          "ratio": 7.0461472700057834,
+          "rest_length_m": 0.010352654775684113,
+          "posed_length_m": 0.07294633018499895,
+          "rest_midpoint_m": [
+            0.26607540249824524,
+            -0.00022173370234668255,
+            -0.09334811568260193
+          ],
+          "normalized_midpoint": [
+            0.7931118778150186,
+            0.4991567570526762,
+            0.34368071581201887
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.727962076663971
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.27203795313835144
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13053,
+          "vertices": [
+            1608,
+            10322
+          ],
+          "ratio": 6.608952191791885,
+          "rest_length_m": 0.010871531204618923,
+          "posed_length_m": 0.0718494299829001,
+          "rest_midpoint_m": [
+            0.2383592128753662,
+            -0.0015521112363785505,
+            -0.10465632379055023
+          ],
+          "normalized_midpoint": [
+            0.7625793884907085,
+            0.4940977332071866,
+            0.3248337030476847
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6560541391372681
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.34394586086273193
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6548969745635986
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.34510305523872375
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13041,
+          "vertices": [
+            1607,
+            10320
+          ],
+          "ratio": 6.244161862528909,
+          "rest_length_m": 0.012193106069899933,
+          "posed_length_m": 0.07613572790743892,
+          "rest_midpoint_m": [
+            0.2512195110321045,
+            -0.0006651929579675198,
+            -0.10221730172634125
+          ],
+          "normalized_midpoint": [
+            0.7767464483037907,
+            0.49747041547571813,
+            0.3288987396598363
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.689127504825592
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.31087252497673035
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6847777962684631
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.31522220373153687
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13055,
+          "vertices": [
+            2104,
+            11482
+          ],
+          "ratio": 6.105749871500045,
+          "rest_length_m": 0.011665584369630373,
+          "posed_length_m": 0.07122714026584358,
+          "rest_midpoint_m": [
+            0.22549889981746674,
+            -0.0024390292819589376,
+            -0.10842572152614594
+          ],
+          "normalized_midpoint": [
+            0.748412312262327,
+            0.4907250518240396,
+            0.31855137373799586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6270768642425537
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3729231655597687
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6227855682373047
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3772144019603729
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13654,
+          "vertices": [
+            11483,
+            2105
+          ],
+          "ratio": 5.549423158198672,
+          "rest_length_m": 0.012989640222225698,
+          "posed_length_m": 0.07208501026588823,
+          "rest_midpoint_m": [
+            0.21263858675956726,
+            -0.0035476768389344215,
+            -0.11175166815519333
+          ],
+          "normalized_midpoint": [
+            0.7342452360339455,
+            0.4865092000951059,
+            0.31300812957651897
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5952954888343811
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4047044813632965
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6042398810386658
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3957601487636566
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13653,
+          "vertices": [
+            11340,
+            2008
+          ],
+          "ratio": 4.950103910158656,
+          "rest_length_m": 0.014767915152358353,
+          "posed_length_m": 0.07310271454058036,
+          "rest_midpoint_m": [
+            0.19933481514453888,
+            -0.004434594884514809,
+            -0.11419069021940231
+          ],
+          "normalized_midpoint": [
+            0.7195896405016646,
+            0.4831365187119589,
+            0.30894309296436734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5744017362594604
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.42559823393821716
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5915349721908569
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4084649980068207
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13651,
+          "vertices": [
+            2010,
+            11341
+          ],
+          "ratio": 4.4888312288296195,
+          "rest_length_m": 0.016610483323926645,
+          "posed_length_m": 0.07456165627039554,
+          "rest_midpoint_m": [
+            0.18536585569381714,
+            -0.005321512930095196,
+            -0.11529933661222458
+          ],
+          "normalized_midpoint": [
+            0.7042012660135347,
+            0.47976383732881195,
+            0.307095349049753
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5875290036201477
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4124709963798523
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5656487345695496
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.43435126543045044
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 919,
+          "vertices": [
+            2149,
+            11632
+          ],
+          "ratio": 4.29450261811354,
+          "rest_length_m": 0.014913678752409305,
+          "posed_length_m": 0.06404683244792604,
+          "rest_midpoint_m": [
+            0.043458983302116394,
+            -0.0008869224693626165,
+            -0.10421286523342133
+          ],
+          "normalized_midpoint": [
+            0.5478749410280377,
+            0.4966272451299314,
+            0.32557280061353044
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13820,
+          "vertices": [
+            2138,
+            11624
+          ],
+          "ratio": 4.251638158246188,
+          "rest_length_m": 0.018337981736381924,
+          "posed_length_m": 0.07796646289562308,
+          "rest_midpoint_m": [
+            0.11197339743375778,
+            -0.003991135861724615,
+            -0.11086475104093552
+          ],
+          "normalized_midpoint": [
+            0.6233512473493396,
+            0.4848228594035324,
+            0.3144863247082104
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7326593399047852
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.26734066009521484
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7294161319732666
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2705838978290558
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 917,
+          "vertices": [
+            11623,
+            2139
+          ],
+          "ratio": 4.231801895038355,
+          "rest_length_m": 0.019258583325004384,
+          "posed_length_m": 0.08149850941050762,
+          "rest_midpoint_m": [
+            0.0878048837184906,
+            -0.003104217816144228,
+            -0.11552107334136963
+          ],
+          "normalized_midpoint": [
+            0.5967269206638741,
+            0.48819554078667937,
+            0.3067257878491963
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7875114679336548
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.21248853206634521
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13662,
+          "vertices": [
+            2009,
+            11398
+          ],
+          "ratio": 4.1140564051027475,
+          "rest_length_m": 0.01836477202753498,
+          "posed_length_m": 0.07555370798813205,
+          "rest_midpoint_m": [
+            0.17028824985027313,
+            -0.005764971952885389,
+            -0.11485587805509567
+          ],
+          "normalized_midpoint": [
+            0.6875915932656563,
+            0.4780774966372385,
+            0.3078344466155987
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5836455821990967
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4163544178009033
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5714501142501831
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4285499155521393
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13818,
+          "vertices": [
+            2113,
+            11537
+          ],
+          "ratio": 4.077672003828722,
+          "rest_length_m": 0.018793455900000606,
+          "posed_length_m": 0.07663354897862219,
+          "rest_midpoint_m": [
+            0.13414634764194489,
+            -0.005099782720208168,
+            -0.10975609719753265
+          ],
+          "normalized_midpoint": [
+            0.6477772371672578,
+            0.4806070103307525,
+            0.3163340810404586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6542378067970276
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3457621932029724
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6627411246299744
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.337258905172348
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13664,
+          "vertices": [
+            2112,
+            11534
+          ],
+          "ratio": 4.042168974546938,
+          "rest_length_m": 0.018840484540397016,
+          "posed_length_m": 0.07615642207462404,
+          "rest_midpoint_m": [
+            0.1534368097782135,
+            -0.005543242208659649,
+            -0.11197339743375778
+          ],
+          "normalized_midpoint": [
+            0.6690278433021803,
+            0.4789206678684098,
+            0.3126385807935961
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.594715416431427
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4052846133708954
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6025954484939575
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3974045217037201
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13904,
+          "vertices": [
+            8290,
+            20046
+          ],
+          "ratio": 3.9502660318974407,
+          "rest_length_m": 0.014307996364274331,
+          "posed_length_m": 0.05652039202230497,
+          "rest_midpoint_m": [
+            -0.01906873658299446,
+            -0.001995569560676813,
+            -0.09201774001121521
+          ],
+          "normalized_midpoint": [
+            0.4789936494132023,
+            0.49241139517176685,
+            0.3458980085095561
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6105262637138367
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.26851972937583923
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.1209539920091629
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6131287217140198
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3868712782859802
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 24366,
+          "vertices": [
+            20190,
+            8498
+          ],
+          "ratio": 3.9395962740531325,
+          "rest_length_m": 0.00381477796946034,
+          "posed_length_m": 0.015028685074825928,
+          "rest_midpoint_m": [
+            -0.18669623136520386,
+            0.0015521046007052064,
+            -0.04434590041637421
+          ],
+          "normalized_midpoint": [
+            0.2943331760747671,
+            0.5059021282301238,
+            0.42535107134377675
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6350675225257874
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.209985613822937
+              },
+              {
+                "bone": "Tail_02",
+                "weight": 0.15494684875011444
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6452069282531738
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3547930419445038
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13902,
+          "vertices": [
+            2153,
+            11635
+          ],
+          "ratio": 3.8095748830143115,
+          "rest_length_m": 0.014259808651180858,
+          "posed_length_m": 0.054323808874128784,
+          "rest_midpoint_m": [
+            0.0004434589936863631,
+            -0.001552110305055976,
+            -0.09578714519739151
+          ],
+          "normalized_midpoint": [
+            0.5004885197848163,
+            0.494097736748725,
+            0.3396156667822334
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.5496019124984741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2467062771320343
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2036917805671692
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.5595359206199646
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2320747971534729
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.2083892822265625
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23920,
+          "vertices": [
+            8292,
+            20049
+          ],
+          "ratio": 3.7906352269029773,
+          "rest_length_m": 0.014465193959072137,
+          "posed_length_m": 0.05483227378524299,
+          "rest_midpoint_m": [
+            -0.037028826773166656,
+            -0.0024390281178057194,
+            -0.08847007155418396
+          ],
+          "normalized_midpoint": [
+            0.4592085970861531,
+            0.4907250562509626,
+            0.35181078903632207
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6385188698768616
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3614811301231384
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6405642032623291
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3594357967376709
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13040,
+          "vertices": [
+            10315,
+            10314
+          ],
+          "ratio": 3.4877074265184027,
+          "rest_length_m": 0.012898471466137163,
+          "posed_length_m": 0.044986094723182296,
+          "rest_midpoint_m": [
+            0.2713969051837921,
+            0.004878045059740543,
+            -0.09423503279685974
+          ],
+          "normalized_midpoint": [
+            0.7989741094618112,
+            0.5185496750057713,
+            0.3422025206803274
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3907335102558136
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3606676757335663
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.12718024849891663
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.12141857296228409
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23924,
+          "vertices": [
+            8295,
+            20050
+          ],
+          "ratio": 3.2526794945799993,
+          "rest_length_m": 0.01521394150102489,
+          "posed_length_m": 0.04948607555212332,
+          "rest_midpoint_m": [
+            -0.053658537566661835,
+            -0.0028824873734265566,
+            -0.08580932021141052
+          ],
+          "normalized_midpoint": [
+            0.4408891067746268,
+            0.4890387146740045,
+            0.35624537443139653
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6863464713096619
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.31365352869033813
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6945408582687378
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3054591119289398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23947,
+          "vertices": [
+            8306,
+            20066
+          ],
+          "ratio": 3.252303196362552,
+          "rest_length_m": 0.01311769291305364,
+          "posed_length_m": 0.04266271459002675,
+          "rest_midpoint_m": [
+            -0.0802660807967186,
+            -0.004434592556208372,
+            -0.07006651908159256
+          ],
+          "normalized_midpoint": [
+            0.4115779157100651,
+            0.4831365275658049,
+            0.382483375271822
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8027905821800232
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19720938801765442
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8113185167312622
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.1886814832687378
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23928,
+          "vertices": [
+            8305,
+            20065
+          ],
+          "ratio": 3.102384098530731,
+          "rest_length_m": 0.01469449486666818,
+          "posed_length_m": 0.04558796721029282,
+          "rest_midpoint_m": [
+            -0.06762749701738358,
+            -0.0035476754419505596,
+            -0.07893569767475128
+          ],
+          "normalized_midpoint": [
+            0.4255007322864969,
+            0.4865092054074135,
+            0.36770141153727326
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7483140826225281
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2516859173774719
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.757538378238678
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.24246163666248322
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 920,
+          "vertices": [
+            11632,
+            2141
+          ],
+          "ratio": 2.8601055614226936,
+          "rest_length_m": 0.026570562885482086,
+          "posed_length_m": 0.07599461467889873,
+          "rest_midpoint_m": [
+            0.054323725402355194,
+            -0.00133038149215281,
+            -0.10731707513332367
+          ],
+          "normalized_midpoint": [
+            0.5598436721812223,
+            0.4949409044383579,
+            0.32039911765261025
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.8116452693939209
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.1883547157049179
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23949,
+          "vertices": [
+            8308,
+            20071
+          ],
+          "ratio": 2.834436168677613,
+          "rest_length_m": 0.013487279998720288,
+          "posed_length_m": 0.03822883424545494,
+          "rest_midpoint_m": [
+            -0.0944567620754242,
+            -0.0055432403460145,
+            -0.06407982110977173
+          ],
+          "normalized_midpoint": [
+            0.3959452897776351,
+            0.4789206749514866,
+            0.3924612048283734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8462478518486023
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1537521481513977
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8483459949493408
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.15165403485298157
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23959,
+          "vertices": [
+            8310,
+            20073
+          ],
+          "ratio": 2.8249602550157356,
+          "rest_length_m": 0.012729667352616932,
+          "posed_length_m": 0.03596080433071421,
+          "rest_midpoint_m": [
+            -0.1128603145480156,
+            0.005543234292417765,
+            -0.06008869409561157
+          ],
+          "normalized_midpoint": [
+            0.37567171404286165,
+            0.5210791886992853,
+            0.39911308292098513
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8593448996543884
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.14065513014793396
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8634148240089417
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.13658516108989716
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 27610,
+          "vertices": [
+            10316,
+            10317
+          ],
+          "ratio": 2.8207792783152144,
+          "rest_length_m": 0.016651858861757834,
+          "posed_length_m": 0.04697121842267607,
+          "rest_midpoint_m": [
+            0.2720620930194855,
+            0.01374722458422184,
+            -0.08558759093284607
+          ],
+          "normalized_midpoint": [
+            0.7997068884176604,
+            0.5522764852957026,
+            0.3566149232143194
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7316489815711975
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2683510482311249
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3963877856731415
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3718280494213104
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13523180782794952
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.09655236452817917
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23961,
+          "vertices": [
+            8461,
+            20157
+          ],
+          "ratio": 2.707311338219935,
+          "rest_length_m": 0.01058743786149706,
+          "posed_length_m": 0.02866349056513001,
+          "rest_midpoint_m": [
+            -0.1350332647562027,
+            0.0026607513427734375,
+            -0.05676275119185448
+          ],
+          "normalized_midpoint": [
+            0.35124572422494343,
+            0.5101179768602114,
+            0.4046563208736451
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8284185528755188
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1715814471244812
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8233932256698608
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.17660678923130035
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13885,
+          "vertices": [
+            2150,
+            2148
+          ],
+          "ratio": 2.5754700803599713,
+          "rest_length_m": 0.022287951713988972,
+          "posed_length_m": 0.05740195279188633,
+          "rest_midpoint_m": [
+            0.0330376960337162,
+            -0.0221729539334774,
+            -0.0944567620754242
+          ],
+          "normalized_midpoint": [
+            0.5363947250749276,
+            0.4156828981320963,
+            0.3418329718974045
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.30025359988212585
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2532346248626709
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.24983343482017517
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19667832553386688
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7214202880859375
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15866881608963013
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.11991086602210999
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23954,
+          "vertices": [
+            8310,
+            20071
+          ],
+          "ratio": 2.5754641395551565,
+          "rest_length_m": 0.017743900624153246,
+          "posed_length_m": 0.04569877975333705,
+          "rest_midpoint_m": [
+            -0.10376940667629242,
+            0.0002217267465312034,
+            -0.06319290399551392
+          ],
+          "normalized_midpoint": [
+            0.3856863679804487,
+            0.5008431031672304,
+            0.3939393999600649
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8593448996543884
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.14065513014793396
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8483459949493408
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.15165403485298157
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 24302,
+          "vertices": [
+            8474,
+            20163
+          ],
+          "ratio": 2.5417965795453887,
+          "rest_length_m": 0.009448903477265997,
+          "posed_length_m": 0.02401719053896924,
+          "rest_midpoint_m": [
+            -0.15942351520061493,
+            0.000443456694483757,
+            -0.0509977862238884
+          ],
+          "normalized_midpoint": [
+            0.3243771296798787,
+            0.5016862751731133,
+            0.41426459543845673
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7557361721992493
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.24426384270191193
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.7491689324378967
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.25083106756210327
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13894,
+          "vertices": [
+            2152,
+            2149
+          ],
+          "ratio": 2.5093476204289202,
+          "rest_length_m": 0.021734015989658594,
+          "posed_length_m": 0.054538201306013896,
+          "rest_midpoint_m": [
+            0.03281596675515175,
+            -0.007760536856949329,
+            -0.10155210644006729
+          ],
+          "normalized_midpoint": [
+            0.536150465422978,
+            0.4704889661813116,
+            0.3300073984262388
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.30311119556427
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.2675345242023468
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2460518181324005
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.18330246210098267
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "edges_over_2x": 41,
+      "edges_over_5x": 15,
+      "top_outliers": [
+        {
+          "edge_index": 13039,
+          "vertices": [
+            1598,
+            10315
+          ],
+          "ratio": 10.793442901120802,
+          "rest_length_m": 0.010352654775684113,
+          "posed_length_m": 0.11174078819636206,
+          "rest_midpoint_m": [
+            0.26607540249824524,
+            -0.00022173370234668255,
+            -0.09334811568260193
+          ],
+          "normalized_midpoint": [
+            0.7931118778150186,
+            0.4991567570526762,
+            0.34368071581201887
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.727962076663971
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.27203795313835144
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13053,
+          "vertices": [
+            1608,
+            10322
+          ],
+          "ratio": 9.9560037564762,
+          "rest_length_m": 0.010871531204618923,
+          "posed_length_m": 0.10823700551183423,
+          "rest_midpoint_m": [
+            0.2383592128753662,
+            -0.0015521112363785505,
+            -0.10465632379055023
+          ],
+          "normalized_midpoint": [
+            0.7625793884907085,
+            0.4940977332071866,
+            0.3248337030476847
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6560541391372681
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.34394586086273193
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6548969745635986
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.34510305523872375
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13041,
+          "vertices": [
+            1607,
+            10320
+          ],
+          "ratio": 9.21802881586418,
+          "rest_length_m": 0.012193106069899933,
+          "posed_length_m": 0.11239640310722604,
+          "rest_midpoint_m": [
+            0.2512195110321045,
+            -0.0006651929579675198,
+            -0.10221730172634125
+          ],
+          "normalized_midpoint": [
+            0.7767464483037907,
+            0.49747041547571813,
+            0.3288987396598363
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.689127504825592
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.31087252497673035
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6847777962684631
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.31522220373153687
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13055,
+          "vertices": [
+            2104,
+            11482
+          ],
+          "ratio": 9.171639628053883,
+          "rest_length_m": 0.011665584369630373,
+          "posed_length_m": 0.10699253588890792,
+          "rest_midpoint_m": [
+            0.22549889981746674,
+            -0.0024390292819589376,
+            -0.10842572152614594
+          ],
+          "normalized_midpoint": [
+            0.748412312262327,
+            0.4907250518240396,
+            0.31855137373799586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6270768642425537
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3729231655597687
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6227855682373047
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3772144019603729
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13654,
+          "vertices": [
+            11483,
+            2105
+          ],
+          "ratio": 8.204609531730293,
+          "rest_length_m": 0.012989640222225698,
+          "posed_length_m": 0.10657492598102017,
+          "rest_midpoint_m": [
+            0.21263858675956726,
+            -0.0035476768389344215,
+            -0.11175166815519333
+          ],
+          "normalized_midpoint": [
+            0.7342452360339455,
+            0.4865092000951059,
+            0.31300812957651897
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5952954888343811
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4047044813632965
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6042398810386658
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3957601487636566
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13653,
+          "vertices": [
+            11340,
+            2008
+          ],
+          "ratio": 7.1910498391566735,
+          "rest_length_m": 0.014767915152358353,
+          "posed_length_m": 0.10619681388104593,
+          "rest_midpoint_m": [
+            0.19933481514453888,
+            -0.004434594884514809,
+            -0.11419069021940231
+          ],
+          "normalized_midpoint": [
+            0.7195896405016646,
+            0.4831365187119589,
+            0.30894309296436734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5744017362594604
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.42559823393821716
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5915349721908569
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4084649980068207
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 24366,
+          "vertices": [
+            20190,
+            8498
+          ],
+          "ratio": 6.712250247851894,
+          "rest_length_m": 0.00381477796946034,
+          "posed_length_m": 0.02560574437101011,
+          "rest_midpoint_m": [
+            -0.18669623136520386,
+            0.0015521046007052064,
+            -0.04434590041637421
+          ],
+          "normalized_midpoint": [
+            0.2943331760747671,
+            0.5059021282301238,
+            0.42535107134377675
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6350675225257874
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.209985613822937
+              },
+              {
+                "bone": "Tail_02",
+                "weight": 0.15494684875011444
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6452069282531738
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3547930419445038
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13651,
+          "vertices": [
+            2010,
+            11341
+          ],
+          "ratio": 6.396059570083327,
+          "rest_length_m": 0.016610483323926645,
+          "posed_length_m": 0.10624164082771054,
+          "rest_midpoint_m": [
+            0.18536585569381714,
+            -0.005321512930095196,
+            -0.11529933661222458
+          ],
+          "normalized_midpoint": [
+            0.7042012660135347,
+            0.47976383732881195,
+            0.307095349049753
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5875290036201477
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4124709963798523
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5656487345695496
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.43435126543045044
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13820,
+          "vertices": [
+            2138,
+            11624
+          ],
+          "ratio": 5.855898521436846,
+          "rest_length_m": 0.018337981736381924,
+          "posed_length_m": 0.1073853601362148,
+          "rest_midpoint_m": [
+            0.11197339743375778,
+            -0.003991135861724615,
+            -0.11086475104093552
+          ],
+          "normalized_midpoint": [
+            0.6233512473493396,
+            0.4848228594035324,
+            0.3144863247082104
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7326593399047852
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.26734066009521484
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7294161319732666
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2705838978290558
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 919,
+          "vertices": [
+            2149,
+            11632
+          ],
+          "ratio": 5.802261991263884,
+          "rest_length_m": 0.014913678752409305,
+          "posed_length_m": 0.08653307137502429,
+          "rest_midpoint_m": [
+            0.043458983302116394,
+            -0.0008869224693626165,
+            -0.10421286523342133
+          ],
+          "normalized_midpoint": [
+            0.5478749410280377,
+            0.4966272451299314,
+            0.32557280061353044
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 917,
+          "vertices": [
+            11623,
+            2139
+          ],
+          "ratio": 5.769079520932377,
+          "rest_length_m": 0.019258583325004384,
+          "posed_length_m": 0.11110429866245256,
+          "rest_midpoint_m": [
+            0.0878048837184906,
+            -0.003104217816144228,
+            -0.11552107334136963
+          ],
+          "normalized_midpoint": [
+            0.5967269206638741,
+            0.48819554078667937,
+            0.3067257878491963
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7803722023963928
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.21962781250476837
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7875114679336548
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.21248853206634521
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13662,
+          "vertices": [
+            2009,
+            11398
+          ],
+          "ratio": 5.754187271366058,
+          "rest_length_m": 0.01836477202753498,
+          "posed_length_m": 0.10567433744238121,
+          "rest_midpoint_m": [
+            0.17028824985027313,
+            -0.005764971952885389,
+            -0.11485587805509567
+          ],
+          "normalized_midpoint": [
+            0.6875915932656563,
+            0.4780774966372385,
+            0.3078344466155987
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.5836455821990967
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4163544178009033
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.5714501142501831
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.4285499155521393
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13818,
+          "vertices": [
+            2113,
+            11537
+          ],
+          "ratio": 5.573828328984687,
+          "rest_length_m": 0.018793455900000606,
+          "posed_length_m": 0.10475149689494778,
+          "rest_midpoint_m": [
+            0.13414634764194489,
+            -0.005099782720208168,
+            -0.10975609719753265
+          ],
+          "normalized_midpoint": [
+            0.6477772371672578,
+            0.4806070103307525,
+            0.3163340810404586
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.6542378067970276
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.3457621932029724
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6627411246299744
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.337258905172348
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13664,
+          "vertices": [
+            2112,
+            11534
+          ],
+          "ratio": 5.554899985907914,
+          "rest_length_m": 0.018840484540397016,
+          "posed_length_m": 0.10465700730794966,
+          "rest_midpoint_m": [
+            0.1534368097782135,
+            -0.005543242208659649,
+            -0.11197339743375778
+          ],
+          "normalized_midpoint": [
+            0.6690278433021803,
+            0.4789206678684098,
+            0.3126385807935961
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.594715416431427
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.4052846133708954
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.6025954484939575
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.3974045217037201
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13040,
+          "vertices": [
+            10315,
+            10314
+          ],
+          "ratio": 5.2888415408824345,
+          "rest_length_m": 0.012898471466137163,
+          "posed_length_m": 0.06821797170399299,
+          "rest_midpoint_m": [
+            0.2713969051837921,
+            0.004878045059740543,
+            -0.09423503279685974
+          ],
+          "normalized_midpoint": [
+            0.7989741094618112,
+            0.5185496750057713,
+            0.3422025206803274
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7255458831787109
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.27445411682128906
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3907335102558136
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3606676757335663
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.12718024849891663
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.12141857296228409
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13904,
+          "vertices": [
+            8290,
+            20046
+          ],
+          "ratio": 4.998896333054557,
+          "rest_length_m": 0.014307996364274331,
+          "posed_length_m": 0.07152419055872888,
+          "rest_midpoint_m": [
+            -0.01906873658299446,
+            -0.001995569560676813,
+            -0.09201774001121521
+          ],
+          "normalized_midpoint": [
+            0.4789936494132023,
+            0.49241139517176685,
+            0.3458980085095561
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6105262637138367
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.26851972937583923
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.1209539920091629
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6131287217140198
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3868712782859802
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13902,
+          "vertices": [
+            2153,
+            11635
+          ],
+          "ratio": 4.88317942940173,
+          "rest_length_m": 0.014259808651180858,
+          "posed_length_m": 0.0696332042726512,
+          "rest_midpoint_m": [
+            0.0004434589936863631,
+            -0.001552110305055976,
+            -0.09578714519739151
+          ],
+          "normalized_midpoint": [
+            0.5004885197848163,
+            0.494097736748725,
+            0.3396156667822334
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.5496019124984741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2467062771320343
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2036917805671692
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.5595359206199646
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2320747971534729
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.2083892822265625
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23920,
+          "vertices": [
+            8292,
+            20049
+          ],
+          "ratio": 4.878255499774814,
+          "rest_length_m": 0.014465193959072137,
+          "posed_length_m": 0.07056491198615307,
+          "rest_midpoint_m": [
+            -0.037028826773166656,
+            -0.0024390281178057194,
+            -0.08847007155418396
+          ],
+          "normalized_midpoint": [
+            0.4592085970861531,
+            0.4907250562509626,
+            0.35181078903632207
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6385188698768616
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.3614811301231384
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6405642032623291
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3594357967376709
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 920,
+          "vertices": [
+            11632,
+            2141
+          ],
+          "ratio": 4.625602214088971,
+          "rest_length_m": 0.026570562885482086,
+          "posed_length_m": 0.12290485451267617,
+          "rest_midpoint_m": [
+            0.054323725402355194,
+            -0.00133038149215281,
+            -0.10731707513332367
+          ],
+          "normalized_midpoint": [
+            0.5598436721812223,
+            0.4949409044383579,
+            0.32039911765261025
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7217329740524292
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.14700068533420563
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.13126632571220398
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.8116452693939209
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.1883547157049179
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23924,
+          "vertices": [
+            8295,
+            20050
+          ],
+          "ratio": 4.1116087314092225,
+          "rest_length_m": 0.01521394150102489,
+          "posed_length_m": 0.06255377471476307,
+          "rest_midpoint_m": [
+            -0.053658537566661835,
+            -0.0028824873734265566,
+            -0.08580932021141052
+          ],
+          "normalized_midpoint": [
+            0.4408891067746268,
+            0.4890387146740045,
+            0.35624537443139653
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.6863464713096619
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.31365352869033813
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.6945408582687378
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.3054591119289398
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 27610,
+          "vertices": [
+            10316,
+            10317
+          ],
+          "ratio": 3.9134367960222303,
+          "rest_length_m": 0.016651858861757834,
+          "posed_length_m": 0.06516599719177196,
+          "rest_midpoint_m": [
+            0.2720620930194855,
+            0.01374722458422184,
+            -0.08558759093284607
+          ],
+          "normalized_midpoint": [
+            0.7997068884176604,
+            0.5522764852957026,
+            0.3566149232143194
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7316489815711975
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.2683510482311249
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.3963877856731415
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.3718280494213104
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13523180782794952
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.09655236452817917
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23947,
+          "vertices": [
+            8306,
+            20066
+          ],
+          "ratio": 3.8611952522108806,
+          "rest_length_m": 0.01311769291305364,
+          "posed_length_m": 0.05064997359584303,
+          "rest_midpoint_m": [
+            -0.0802660807967186,
+            -0.004434592556208372,
+            -0.07006651908159256
+          ],
+          "normalized_midpoint": [
+            0.4115779157100651,
+            0.4831365275658049,
+            0.382483375271822
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8027905821800232
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19720938801765442
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8113185167312622
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.1886814832687378
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23928,
+          "vertices": [
+            8305,
+            20065
+          ],
+          "ratio": 3.807536054538823,
+          "rest_length_m": 0.01469449486666818,
+          "posed_length_m": 0.055949819008074754,
+          "rest_midpoint_m": [
+            -0.06762749701738358,
+            -0.0035476754419505596,
+            -0.07893569767475128
+          ],
+          "normalized_midpoint": [
+            0.4255007322864969,
+            0.4865092054074135,
+            0.36770141153727326
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.7483140826225281
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.2516859173774719
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.757538378238678
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.24246163666248322
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13885,
+          "vertices": [
+            2150,
+            2148
+          ],
+          "ratio": 3.4147383730021064,
+          "rest_length_m": 0.022287951713988972,
+          "posed_length_m": 0.07610752397337621,
+          "rest_midpoint_m": [
+            0.0330376960337162,
+            -0.0221729539334774,
+            -0.0944567620754242
+          ],
+          "normalized_midpoint": [
+            0.5363947250749276,
+            0.4156828981320963,
+            0.3418329718974045
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.30025359988212585
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2532346248626709
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.24983343482017517
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19667832553386688
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7214202880859375
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15866881608963013
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.11991086602210999
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13894,
+          "vertices": [
+            2152,
+            2149
+          ],
+          "ratio": 3.3735122080437154,
+          "rest_length_m": 0.021734015989658594,
+          "posed_length_m": 0.07331996827093058,
+          "rest_midpoint_m": [
+            0.03281596675515175,
+            -0.007760536856949329,
+            -0.10155210644006729
+          ],
+          "normalized_midpoint": [
+            0.536150465422978,
+            0.4704889661813116,
+            0.3300073984262388
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.30311119556427
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.2675345242023468
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.2460518181324005
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.18330246210098267
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7228093147277832
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15763360261917114
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.11955707520246506
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23949,
+          "vertices": [
+            8308,
+            20071
+          ],
+          "ratio": 3.3428147978425544,
+          "rest_length_m": 0.013487279998720288,
+          "posed_length_m": 0.04508547916236809,
+          "rest_midpoint_m": [
+            -0.0944567620754242,
+            -0.0055432403460145,
+            -0.06407982110977173
+          ],
+          "normalized_midpoint": [
+            0.3959452897776351,
+            0.4789206749514866,
+            0.3924612048283734
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8462478518486023
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1537521481513977
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8483459949493408
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.15165403485298157
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 13883,
+          "vertices": [
+            2146,
+            2142
+          ],
+          "ratio": 3.3349392497143064,
+          "rest_length_m": 0.02270319425166167,
+          "posed_length_m": 0.07571377360375472,
+          "rest_midpoint_m": [
+            0.0330376960337162,
+            -0.03747228905558586,
+            -0.08425720781087875
+          ],
+          "normalized_midpoint": [
+            0.5363947250749276,
+            0.35750414869973407,
+            0.35883222832949047
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.357262521982193
+              },
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.24524496495723724
+              },
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.2047552764415741
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.19273725152015686
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.7247468829154968
+              },
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.15294398367404938
+              },
+              {
+                "bone": "Front_Lower.R",
+                "weight": 0.122309111058712
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 27614,
+          "vertices": [
+            10319,
+            10318
+          ],
+          "ratio": 3.309232178565669,
+          "rest_length_m": 0.016909677656341895,
+          "posed_length_m": 0.05595804942953951,
+          "rest_midpoint_m": [
+            0.2738359272480011,
+            0.023059863597154617,
+            -0.07804878056049347
+          ],
+          "normalized_midpoint": [
+            0.801660965633258,
+            0.5876896380479766,
+            0.36917960666896477
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.7410303950309753
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.25896960496902466
+              }
+            ],
+            [
+              {
+                "bone": "Front_Upper.L",
+                "weight": 0.4356614649295807
+              },
+              {
+                "bone": "Front_Upper.R",
+                "weight": 0.33298197388648987
+              },
+              {
+                "bone": "Front_Lower.L",
+                "weight": 0.13675455749034882
+              },
+              {
+                "bone": "Jaw",
+                "weight": 0.09460201859474182
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23959,
+          "vertices": [
+            8310,
+            20073
+          ],
+          "ratio": 3.2831429541047434,
+          "rest_length_m": 0.012729667352616932,
+          "posed_length_m": 0.04179331767684146,
+          "rest_midpoint_m": [
+            -0.1128603145480156,
+            0.005543234292417765,
+            -0.06008869409561157
+          ],
+          "normalized_midpoint": [
+            0.37567171404286165,
+            0.5210791886992853,
+            0.39911308292098513
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8593448996543884
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.14065513014793396
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8634148240089417
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.13658516108989716
+              }
+            ]
+          ]
+        },
+        {
+          "edge_index": 23961,
+          "vertices": [
+            8461,
+            20157
+          ],
+          "ratio": 3.207301489541092,
+          "rest_length_m": 0.01058743786149706,
+          "posed_length_m": 0.03395710522360327,
+          "rest_midpoint_m": [
+            -0.1350332647562027,
+            0.0026607513427734375,
+            -0.05676275119185448
+          ],
+          "normalized_midpoint": [
+            0.35124572422494343,
+            0.5101179768602114,
+            0.4046563208736451
+          ],
+          "component_ids": [
+            1,
+            1
+          ],
+          "component_sizes": [
+            20331,
+            20331
+          ],
+          "endpoint_weights": [
+            [
+              {
+                "bone": "Rear_Upper.R",
+                "weight": 0.8284185528755188
+              },
+              {
+                "bone": "Rear_Lower.R",
+                "weight": 0.1715814471244812
+              }
+            ],
+            [
+              {
+                "bone": "Rear_Upper.L",
+                "weight": 0.8233932256698608
+              },
+              {
+                "bone": "Rear_Lower.L",
+                "weight": 0.17660678923130035
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "most_frequent_outlier_vertices": [
+    {
+      "vertex": 10315,
+      "occurrences": 6,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.264966756105423,
+        0.004656315315514803,
+        -0.09467849880456924
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.7255458831787109
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.27445411682128906
+        }
+      ]
+    },
+    {
+      "vertex": 1598,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.2671840488910675,
+        -0.005099782720208168,
+        -0.09201774001121521
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.727962076663971
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.27203795313835144
+        }
+      ]
+    },
+    {
+      "vertex": 1608,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.23924612998962402,
+        -0.00687361927703023,
+        -0.10399113595485687
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.6560541391372681
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.34394586086273193
+        }
+      ]
+    },
+    {
+      "vertex": 10322,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.2374722957611084,
+        0.0037693968042731285,
+        -0.10532151162624359
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.6548969745635986
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.34510305523872375
+        }
+      ]
+    },
+    {
+      "vertex": 2104,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.22638581693172455,
+        -0.00820399634540081,
+        -0.10842572152614594
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.6270768642425537
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.3729231655597687
+        }
+      ]
+    },
+    {
+      "vertex": 11482,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.22461198270320892,
+        0.003325937781482935,
+        -0.10842572152614594
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.6227855682373047
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.3772144019603729
+        }
+      ]
+    },
+    {
+      "vertex": 11483,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.21175166964530945,
+        0.0028824785258620977,
+        -0.11197339743375778
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.5952954888343811
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.4047044813632965
+        }
+      ]
+    },
+    {
+      "vertex": 2105,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.21352550387382507,
+        -0.009977832436561584,
+        -0.11152993887662888
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.6042398810386658
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.3957601487636566
+        }
+      ]
+    },
+    {
+      "vertex": 20190,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        -0.18736141920089722,
+        0.003325940575450659,
+        -0.04456762969493866
+      ],
+      "weights": [
+        {
+          "bone": "Rear_Upper.L",
+          "weight": 0.6350675225257874
+        },
+        {
+          "bone": "Rear_Lower.L",
+          "weight": 0.209985613822937
+        },
+        {
+          "bone": "Tail_02",
+          "weight": 0.15494684875011444
+        }
+      ]
+    },
+    {
+      "vertex": 8498,
+      "occurrences": 4,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        -0.1860310435295105,
+        -0.00022173143224790692,
+        -0.04412417113780975
+      ],
+      "weights": [
+        {
+          "bone": "Rear_Upper.R",
+          "weight": 0.6452069282531738
+        },
+        {
+          "bone": "Rear_Lower.R",
+          "weight": 0.3547930419445038
+        }
+      ]
+    },
+    {
+      "vertex": 11623,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.08847007155418396,
+        0.005986691452562809,
+        -0.11862528324127197
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.7803722023963928
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.21962781250476837
+        }
+      ]
+    },
+    {
+      "vertex": 2139,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.08713969588279724,
+        -0.012195127084851265,
+        -0.11241685599088669
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.7875114679336548
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.21248853206634521
+        }
+      ]
+    },
+    {
+      "vertex": 2149,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.04368071258068085,
+        -0.007760536856949329,
+        -0.10133037716150284
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.7228093147277832
+        },
+        {
+          "bone": "Rear_Upper.L",
+          "weight": 0.15763360261917114
+        },
+        {
+          "bone": "Rear_Upper.R",
+          "weight": 0.11955707520246506
+        }
+      ]
+    },
+    {
+      "vertex": 11632,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.04323725029826164,
+        0.005986691918224096,
+        -0.10709534585475922
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.7217329740524292
+        },
+        {
+          "bone": "Rear_Upper.L",
+          "weight": 0.14700068533420563
+        },
+        {
+          "bone": "Rear_Upper.R",
+          "weight": 0.13126632571220398
+        }
+      ]
+    },
+    {
+      "vertex": 1607,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.2521064281463623,
+        -0.005543241742998362,
+        -0.0986696258187294
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.689127504825592
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.31087252497673035
+        }
+      ]
+    },
+    {
+      "vertex": 10320,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.2503325939178467,
+        0.004212855827063322,
+        -0.1057649701833725
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.6847777962684631
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.31522220373153687
+        }
+      ]
+    },
+    {
+      "vertex": 2138,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.11241685599088669,
+        -0.013082045130431652,
+        -0.10975610464811325
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.7326593399047852
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.26734066009521484
+        }
+      ]
+    },
+    {
+      "vertex": 11624,
+      "occurrences": 3,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.11152993887662888,
+        0.005099773406982422,
+        -0.11197339743375778
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.7294161319732666
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.2705838978290558
+        }
+      ]
+    },
+    {
+      "vertex": 10314,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.27782705426216125,
+        0.0050997743383049965,
+        -0.09379157423973083
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.3907335102558136
+        },
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.3606676757335663
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.12718024849891663
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.12141857296228409
+        }
+      ]
+    },
+    {
+      "vertex": 2010,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.1864745020866394,
+        -0.013525503687560558,
+        -0.11463414877653122
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.5875290036201477
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.4124709963798523
+        }
+      ]
+    },
+    {
+      "vertex": 11341,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.18425720930099487,
+        0.002882478293031454,
+        -0.11596452444791794
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.5656487345695496
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.43435126543045044
+        }
+      ]
+    },
+    {
+      "vertex": 11340,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.19844789803028107,
+        0.002882478293031454,
+        -0.11463414877653122
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.5744017362594604
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.42559823393821716
+        }
+      ]
+    },
+    {
+      "vertex": 2008,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.2002217322587967,
+        -0.011751667596399784,
+        -0.11374723166227341
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.5915349721908569
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.4084649980068207
+        }
+      ]
+    },
+    {
+      "vertex": 2009,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.1713968962430954,
+        -0.014855881221592426,
+        -0.11419069021940231
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.5836455821990967
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.4163544178009033
+        }
+      ]
+    },
+    {
+      "vertex": 11398,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.16917960345745087,
+        0.0033259373158216476,
+        -0.11552106589078903
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.5714501142501831
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.4285499155521393
+        }
+      ]
+    },
+    {
+      "vertex": 2112,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.15454545617103577,
+        -0.014855881221592426,
+        -0.11108648031949997
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.594715416431427
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.4052846133708954
+        }
+      ]
+    },
+    {
+      "vertex": 11534,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.15232816338539124,
+        0.003769396571442485,
+        -0.1128603145480156
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.6025954484939575
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.3974045217037201
+        }
+      ]
+    },
+    {
+      "vertex": 2113,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.1350332647562027,
+        -0.014412421733140945,
+        -0.10886918008327484
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.R",
+          "weight": 0.6542378067970276
+        },
+        {
+          "bone": "Front_Lower.R",
+          "weight": 0.3457621932029724
+        }
+      ]
+    },
+    {
+      "vertex": 11537,
+      "occurrences": 2,
+      "component": 1,
+      "component_size": 20331,
+      "rest_position_m": [
+        0.13325943052768707,
+        0.004212855827063322,
+        -0.11064302176237106
+      ],
+      "weights": [
+        {
+          "bone": "Front_Upper.L",
+          "weight": 0.6627411246299744
+        },
+        {
+          "bone": "Front_Lower.L",
+          "weight": 0.337258905172348
+        }
+      ]
+    }
+  ]
+}

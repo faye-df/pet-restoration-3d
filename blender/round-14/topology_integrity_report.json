@@ -1,0 +1,40 @@
+{
+  "round13": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/pet_unity_canine_walk_fixed.blend",
+    "topology": {
+      "vertices": 21229,
+      "edges": 44378,
+      "polygons": 23169,
+      "boundary_edges": 457,
+      "edges_with_more_than_two_faces": 30,
+      "loose_edges": 0
+    },
+    "materials": 1,
+    "images": 6,
+    "coverage_percent": 100.0,
+    "armature_modifier": true,
+    "bones_total": 45,
+    "bones_deform": 36,
+    "ik_constraints": 4,
+    "action": "Pet_IK_Walk_RootMotion_FixedAxes_24f"
+  },
+  "round14": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-14/pet_unity_canine_motion_bridge_fixed.blend",
+    "topology": {
+      "vertices": 21229,
+      "edges": 44348,
+      "polygons": 23138,
+      "boundary_edges": 518,
+      "edges_with_more_than_two_faces": 30,
+      "loose_edges": 0
+    },
+    "materials": 1,
+    "images": 6,
+    "coverage_percent": 100.0,
+    "armature_modifier": true,
+    "bones_total": 45,
+    "bones_deform": 36,
+    "ik_constraints": 4,
+    "action": "Pet_IK_Walk_RootMotion_FixedAxes_24f"
+  }
+}
