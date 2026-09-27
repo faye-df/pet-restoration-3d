@@ -1,0 +1,103 @@
+{
+  "source": "/Users/phoebedufei/Documents/ChatGPT/3D/outputs/tripo-out/pet-gptimage-v2-p2-20k-quad/tripo-out/pet-gptimage-v2-p2-20k-quad-50ebb73b/model.fbx",
+  "method": "Tripo neutral mesh -> custom 36-deform-bone canine skeleton -> semantic_distance_gaussian_top4 -> direct 24-frame walk -> Unity FBX",
+  "mesh": {
+    "vertices": 21229,
+    "polygons": 23169,
+    "dimensions_m": [
+      0.9077605605125427,
+      0.2629711925983429,
+      0.6000000238418579
+    ],
+    "head_direction": "+X"
+  },
+  "skeleton": {
+    "total_bones": 37,
+    "deform_bones": 36,
+    "control_widgets": 0,
+    "rigify_used": false
+  },
+  "weights": {
+    "method": "semantic_distance_gaussian_top4",
+    "weighted_vertices": 21229,
+    "unweighted_vertices": 0,
+    "coverage_percent": 100.0,
+    "max_influences_per_vertex": 4,
+    "influence_histogram": {
+      "1": 2733,
+      "4": 16854,
+      "3": 1642
+    },
+    "voxel_proxy": {
+      "requested": false,
+      "attempted": false,
+      "vertices": 0,
+      "polygons": 0,
+      "coverage_percent": 0.0,
+      "transfer_applied": false
+    }
+  },
+  "animation": {
+    "action": "Pet_Walk_24f",
+    "frames": [
+      1,
+      7,
+      13,
+      19,
+      25
+    ],
+    "fps": 24,
+    "pose_bounds": [
+      {
+        "frame": 1,
+        "dimensions_m": [
+          0.9073121547698975,
+          0.2629711925983429,
+          0.6009269952774048
+        ],
+        "max_dimension_ratio_vs_rest": 1.0015449523311872
+      },
+      {
+        "frame": 7,
+        "dimensions_m": [
+          0.9077604413032532,
+          0.2629712224006653,
+          0.6000000238418579
+        ],
+        "max_dimension_ratio_vs_rest": 1.0000001133292284
+      },
+      {
+        "frame": 13,
+        "dimensions_m": [
+          0.8977805972099304,
+          0.2629711925983429,
+          0.5989606976509094
+        ],
+        "max_dimension_ratio_vs_rest": 1.0
+      },
+      {
+        "frame": 19,
+        "dimensions_m": [
+          0.9077604413032532,
+          0.2629712224006653,
+          0.6000000238418579
+        ],
+        "max_dimension_ratio_vs_rest": 1.0000001133292284
+      }
+    ]
+  },
+  "unity_export": {
+    "fbx": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-base/pet_unity_canine_rig.fbx",
+    "deform_only": true,
+    "leaf_bones": false,
+    "embedded_textures": true
+  },
+  "outputs": {
+    "blend": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-base/pet_unity_canine_rig.blend",
+    "report": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-base/unity_canine_rig_report.json",
+    "previews": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-base/previews",
+    "walk_frames": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-base/previews/frames",
+    "walk_gif": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-base/previews/pet_walk_preview.gif"
+  },
+  "elapsed_seconds": 51.452
+}

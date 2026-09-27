@@ -1,0 +1,235 @@
+{
+  "source_round": 7,
+  "method": "Round07 custom canine deform rig -> four grounded IK targets -> one-stride root-motion walk -> baked deform-only Unity FBX",
+  "mesh": {
+    "vertices": 21229,
+    "polygons": 23169,
+    "dimensions_m": [
+      0.9077605605125427,
+      0.2629711925983429,
+      0.6000000238418579
+    ],
+    "head_direction": "+X"
+  },
+  "skeleton": {
+    "total_blender_bones": 41,
+    "deform_bones": 36,
+    "non_deform_ik_controls": 4,
+    "export_mode": "deform_only_with_required_parent_root"
+  },
+  "weights": {
+    "weighted_vertices": 21229,
+    "unweighted_vertices": 0,
+    "coverage_percent": 100.0,
+    "max_influences_per_vertex": 4
+  },
+  "animation": {
+    "action": "Pet_IK_Walk_RootMotion_24f",
+    "fps": 24,
+    "frames": [
+      1,
+      25
+    ],
+    "stride_m": 0.16,
+    "foot_lift_m": 0.045,
+    "root_motion_m": 0.16,
+    "pose_bounds": [
+      {
+        "frame": 1,
+        "dimensions_m": [
+          0.9072533845901489,
+          0.2629712224006653,
+          0.6176522374153137
+        ],
+        "max_dimension_ratio_vs_reference": 1.0
+      },
+      {
+        "frame": 7,
+        "dimensions_m": [
+          0.907760500907898,
+          0.26995614171028137,
+          0.6151843070983887
+        ],
+        "max_dimension_ratio_vs_reference": 1.0265615349308974
+      },
+      {
+        "frame": 13,
+        "dimensions_m": [
+          0.8978800773620605,
+          0.2629712224006653,
+          0.5990949869155884
+        ],
+        "max_dimension_ratio_vs_reference": 1.0
+      },
+      {
+        "frame": 19,
+        "dimensions_m": [
+          0.907760500907898,
+          0.26307231187820435,
+          0.6090521216392517
+        ],
+        "max_dimension_ratio_vs_reference": 1.0005589577579566
+      },
+      {
+        "frame": 24,
+        "dimensions_m": [
+          0.9074721336364746,
+          0.2629712224006653,
+          0.6176714897155762
+        ],
+        "max_dimension_ratio_vs_reference": 1.0002411113036789
+      }
+    ],
+    "foot_target_errors": [
+      {
+        "frame": 1,
+        "paw": "Front_Paw.L",
+        "target": "IK_Front.L",
+        "error_m": 0.004295877596936777,
+        "height_m": -0.26835116744041443
+      },
+      {
+        "frame": 1,
+        "paw": "Front_Paw.R",
+        "target": "IK_Front.R",
+        "error_m": 0.008464181867030867,
+        "height_m": -0.264371395111084
+      },
+      {
+        "frame": 1,
+        "paw": "Rear_Paw.L",
+        "target": "IK_Rear.L",
+        "error_m": 9.18569267238524e-08,
+        "height_m": -0.2695566415786743
+      },
+      {
+        "frame": 1,
+        "paw": "Rear_Paw.R",
+        "target": "IK_Rear.R",
+        "error_m": 1.0745380149674383e-07,
+        "height_m": -0.26955646276474
+      },
+      {
+        "frame": 7,
+        "paw": "Front_Paw.L",
+        "target": "IK_Front.L",
+        "error_m": 0.0003688728967280592,
+        "height_m": -0.2721913158893585
+      },
+      {
+        "frame": 7,
+        "paw": "Front_Paw.R",
+        "target": "IK_Front.R",
+        "error_m": 0.0005838566067021258,
+        "height_m": -0.2719789147377014
+      },
+      {
+        "frame": 7,
+        "paw": "Rear_Paw.L",
+        "target": "IK_Rear.L",
+        "error_m": 6.409231772305538e-08,
+        "height_m": -0.26955661177635193
+      },
+      {
+        "frame": 7,
+        "paw": "Rear_Paw.R",
+        "target": "IK_Rear.R",
+        "error_m": 4.470348358154297e-08,
+        "height_m": -0.26955652236938477
+      },
+      {
+        "frame": 13,
+        "paw": "Front_Paw.L",
+        "target": "IK_Front.L",
+        "error_m": 1.3457530638715954e-07,
+        "height_m": -0.27255648374557495
+      },
+      {
+        "frame": 13,
+        "paw": "Front_Paw.R",
+        "target": "IK_Front.R",
+        "error_m": 1.7265424469495516e-07,
+        "height_m": -0.2725564241409302
+      },
+      {
+        "frame": 13,
+        "paw": "Rear_Paw.L",
+        "target": "IK_Rear.L",
+        "error_m": 9.010275172030794e-08,
+        "height_m": -0.2695566415786743
+      },
+      {
+        "frame": 13,
+        "paw": "Rear_Paw.R",
+        "target": "IK_Rear.R",
+        "error_m": 6.289013853719135e-08,
+        "height_m": -0.26955652236938477
+      },
+      {
+        "frame": 19,
+        "paw": "Front_Paw.L",
+        "target": "IK_Front.L",
+        "error_m": 8.503133215392624e-08,
+        "height_m": -0.27255648374557495
+      },
+      {
+        "frame": 19,
+        "paw": "Front_Paw.R",
+        "target": "IK_Front.R",
+        "error_m": 0.002483156386239958,
+        "height_m": -0.27011343836784363
+      },
+      {
+        "frame": 19,
+        "paw": "Rear_Paw.L",
+        "target": "IK_Rear.L",
+        "error_m": 3.9347689923416095e-08,
+        "height_m": -0.26955658197402954
+      },
+      {
+        "frame": 19,
+        "paw": "Rear_Paw.R",
+        "target": "IK_Rear.R",
+        "error_m": 8.33000234328132e-08,
+        "height_m": -0.26955655217170715
+      },
+      {
+        "frame": 24,
+        "paw": "Front_Paw.L",
+        "target": "IK_Front.L",
+        "error_m": 0.00393786870326324,
+        "height_m": -0.2686976492404938
+      },
+      {
+        "frame": 24,
+        "paw": "Front_Paw.R",
+        "target": "IK_Front.R",
+        "error_m": 0.00812781832050471,
+        "height_m": -0.2646891176700592
+      },
+      {
+        "frame": 24,
+        "paw": "Rear_Paw.L",
+        "target": "IK_Rear.L",
+        "error_m": 3.414284955677271e-08,
+        "height_m": -0.26955658197402954
+      },
+      {
+        "frame": 24,
+        "paw": "Rear_Paw.R",
+        "target": "IK_Rear.R",
+        "error_m": 5.0669426131007984e-08,
+        "height_m": -0.26955652236938477
+      }
+    ],
+    "max_foot_target_error_m": 0.008464181867030867
+  },
+  "outputs": {
+    "blend": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-08/pet_unity_canine_ik_walk.blend",
+    "fbx": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-08/pet_unity_canine_ik_walk.fbx",
+    "report": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-08/ik_walk_report.json",
+    "previews": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-08/previews",
+    "walk_gif": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-08/previews/pet_ik_walk_preview.gif"
+  },
+  "elapsed_seconds": 68.465
+}

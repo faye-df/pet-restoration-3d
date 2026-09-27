@@ -1,0 +1,31 @@
+.DS_Store
+.tripo/
+lark-auth-qr.png
+tripo-cli-*.tgz
+**/node_modules/
+
+# User/reference inputs and downloaded/generated binary assets stay local.
+inputs/
+outputs/tripo-out/
+
+# Blender/Unity binary artifacts are versioned by immutable round folders plus
+# SHA-256 entries in blender/version_manifest.json, not stored in normal Git.
+blender/**/*.blend
+blender/**/*.blend1
+blender/**/*.fbx
+blender/**/*.glb
+blender/**/*.obj
+
+# Keep selected review stills out of Git; reports record their paths.
+blender/**/previews/frames/
+blender/**/previews/*.png
+blender/**/previews/*.gif
+blender/**/previews/validation/
+blender/**/*.png
+blender/**/*.gif
+blender/**/__pycache__/
+blender/**/*.pyc
+
+# Local dashboard build/runtime output.
+pet-test-dashboard/node_modules/
+pet-test-dashboard/dist/

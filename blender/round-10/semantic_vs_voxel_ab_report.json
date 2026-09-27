@@ -1,0 +1,347 @@
+{
+  "voxel_then_rear_repair": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-09/pet_unity_canine_walk_fixed.blend",
+    "mesh": {
+      "vertices": 21229,
+      "polygons": 23169,
+      "coverage_percent": 100.0,
+      "max_influences_per_vertex": 4
+    },
+    "cross_weight_audit": {
+      "front": {
+        "audited_vertices": 3969,
+        "opposite_side_over_0_05": 221,
+        "cross_percent": 5.5681531872008065,
+        "mean_opposite_side_weight": 0.011687230377173861
+      },
+      "rear": {
+        "audited_vertices": 3983,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      }
+    },
+    "edge_stretch_audit": [
+      {
+        "frame": 1,
+        "p99_ratio": 1.1306122741604863,
+        "p999_ratio": 1.631161287990432,
+        "max_ratio": 9.949295809862077,
+        "edges_over_2x": 23,
+        "edges_over_5x": 2
+      },
+      {
+        "frame": 7,
+        "p99_ratio": 1.167842653725254,
+        "p999_ratio": 1.528158395889856,
+        "max_ratio": 4.364450582645273,
+        "edges_over_2x": 7,
+        "edges_over_5x": 0
+      },
+      {
+        "frame": 13,
+        "p99_ratio": 1.0086167723982356,
+        "p999_ratio": 1.0743604168691332,
+        "max_ratio": 1.1630229557325091,
+        "edges_over_2x": 0,
+        "edges_over_5x": 0
+      },
+      {
+        "frame": 19,
+        "p99_ratio": 1.0883207928862129,
+        "p999_ratio": 1.2635215689682822,
+        "max_ratio": 8.881776503646863,
+        "edges_over_2x": 15,
+        "edges_over_5x": 1
+      },
+      {
+        "frame": 24,
+        "p99_ratio": 1.1276825883717525,
+        "p999_ratio": 1.5975049544028397,
+        "max_ratio": 10.014558670168997,
+        "edges_over_2x": 23,
+        "edges_over_5x": 2
+      }
+    ],
+    "bones": {
+      "total": 41,
+      "deform": 36
+    }
+  },
+  "semantic_only_no_repair": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-10/semantic-walk/pet_unity_canine_walk_fixed.blend",
+    "mesh": {
+      "vertices": 21229,
+      "polygons": 23169,
+      "coverage_percent": 100.0,
+      "max_influences_per_vertex": 4
+    },
+    "cross_weight_audit": {
+      "front": {
+        "audited_vertices": 3969,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      },
+      "rear": {
+        "audited_vertices": 3983,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      }
+    },
+    "edge_stretch_audit": [
+      {
+        "frame": 1,
+        "p99_ratio": 1.2241359671338794,
+        "p999_ratio": 30.68234955594499,
+        "max_ratio": 117.2430447801098,
+        "edges_over_2x": 345,
+        "edges_over_5x": 245
+      },
+      {
+        "frame": 7,
+        "p99_ratio": 1.1557197542845583,
+        "p999_ratio": 21.152493076447392,
+        "max_ratio": 79.6864111115203,
+        "edges_over_2x": 346,
+        "edges_over_5x": 250
+      },
+      {
+        "frame": 13,
+        "p99_ratio": 1.0093174623769783,
+        "p999_ratio": 2.3600113046071542,
+        "max_ratio": 9.902125349267186,
+        "edges_over_2x": 67,
+        "edges_over_5x": 9
+      },
+      {
+        "frame": 19,
+        "p99_ratio": 1.109074674221054,
+        "p999_ratio": 17.233016945236468,
+        "max_ratio": 61.33395967305799,
+        "edges_over_2x": 296,
+        "edges_over_5x": 185
+      },
+      {
+        "frame": 24,
+        "p99_ratio": 1.2200363648946067,
+        "p999_ratio": 30.023555090188665,
+        "max_ratio": 114.69400558895936,
+        "edges_over_2x": 344,
+        "edges_over_5x": 242
+      }
+    ],
+    "bones": {
+      "total": 41,
+      "deform": 36
+    }
+  },
+  "round11_all_limbs_poles_v1": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-11/pet_unity_canine_walk_fixed.blend",
+    "mesh": {
+      "vertices": 21229,
+      "polygons": 23169,
+      "coverage_percent": 100.0,
+      "max_influences_per_vertex": 4
+    },
+    "cross_weight_audit": {
+      "front": {
+        "audited_vertices": 3969,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      },
+      "rear": {
+        "audited_vertices": 3983,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      }
+    },
+    "edge_stretch_audit": [
+      {
+        "frame": 1,
+        "p99_ratio": 1.3331171367439425,
+        "p999_ratio": 3.3726174981136965,
+        "max_ratio": 26.746418580223093,
+        "edges_over_2x": 103,
+        "edges_over_5x": 31
+      },
+      {
+        "frame": 7,
+        "p99_ratio": 1.3086486563353144,
+        "p999_ratio": 3.1349753801492386,
+        "max_ratio": 17.326427497477894,
+        "edges_over_2x": 90,
+        "edges_over_5x": 26
+      },
+      {
+        "frame": 13,
+        "p99_ratio": 1.2853105172494772,
+        "p999_ratio": 2.6973574151464774,
+        "max_ratio": 15.72220023725411,
+        "edges_over_2x": 78,
+        "edges_over_5x": 10
+      },
+      {
+        "frame": 19,
+        "p99_ratio": 1.3186445641516926,
+        "p999_ratio": 2.956504873327316,
+        "max_ratio": 25.669690216112276,
+        "edges_over_2x": 92,
+        "edges_over_5x": 20
+      },
+      {
+        "frame": 24,
+        "p99_ratio": 1.3246187181495206,
+        "p999_ratio": 3.399509959906974,
+        "max_ratio": 26.848951401298308,
+        "edges_over_2x": 100,
+        "edges_over_5x": 32
+      }
+    ],
+    "bones": {
+      "total": 45,
+      "deform": 36
+    }
+  },
+  "round12_all_limbs_poles_planar": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-12/pet_unity_canine_walk_fixed.blend",
+    "mesh": {
+      "vertices": 21229,
+      "polygons": 23169,
+      "coverage_percent": 100.0,
+      "max_influences_per_vertex": 4
+    },
+    "cross_weight_audit": {
+      "front": {
+        "audited_vertices": 3969,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      },
+      "rear": {
+        "audited_vertices": 3983,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      }
+    },
+    "edge_stretch_audit": [
+      {
+        "frame": 1,
+        "p99_ratio": 1.125944567136682,
+        "p999_ratio": 1.9974305075498726,
+        "max_ratio": 10.966557400899285,
+        "edges_over_2x": 44,
+        "edges_over_5x": 15
+      },
+      {
+        "frame": 7,
+        "p99_ratio": 1.0945595006800504,
+        "p999_ratio": 1.6709245136113384,
+        "max_ratio": 7.440722908133839,
+        "edges_over_2x": 27,
+        "edges_over_5x": 8
+      },
+      {
+        "frame": 13,
+        "p99_ratio": 1.044460239888999,
+        "p999_ratio": 1.3223945264828971,
+        "max_ratio": 6.897115134617692,
+        "edges_over_2x": 12,
+        "edges_over_5x": 1
+      },
+      {
+        "frame": 19,
+        "p99_ratio": 1.093973041139794,
+        "p999_ratio": 1.5787338124508965,
+        "max_ratio": 7.046269190359251,
+        "edges_over_2x": 34,
+        "edges_over_5x": 5
+      },
+      {
+        "frame": 24,
+        "p99_ratio": 1.115077792122601,
+        "p999_ratio": 1.9655643854855536,
+        "max_ratio": 10.793746183935768,
+        "edges_over_2x": 41,
+        "edges_over_5x": 15
+      }
+    ],
+    "bones": {
+      "total": 45,
+      "deform": 36
+    }
+  },
+  "round13_static_bounds_candidate": {
+    "file": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/pet_unity_canine_walk_fixed.blend",
+    "mesh": {
+      "vertices": 21229,
+      "polygons": 23169,
+      "coverage_percent": 100.0,
+      "max_influences_per_vertex": 4
+    },
+    "cross_weight_audit": {
+      "front": {
+        "audited_vertices": 3969,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      },
+      "rear": {
+        "audited_vertices": 3983,
+        "opposite_side_over_0_05": 0,
+        "cross_percent": 0.0,
+        "mean_opposite_side_weight": 0.0
+      }
+    },
+    "edge_stretch_audit": [
+      {
+        "frame": 1,
+        "p99_ratio": 1.1259340763642003,
+        "p999_ratio": 1.997429534918125,
+        "max_ratio": 10.966255009694898,
+        "edges_over_2x": 44,
+        "edges_over_5x": 15
+      },
+      {
+        "frame": 7,
+        "p99_ratio": 1.0945595006800504,
+        "p999_ratio": 1.6708774284503494,
+        "max_ratio": 7.440722370574391,
+        "edges_over_2x": 27,
+        "edges_over_5x": 8
+      },
+      {
+        "frame": 13,
+        "p99_ratio": 1.0444525305756491,
+        "p999_ratio": 1.3223940935755647,
+        "max_ratio": 6.897114773790848,
+        "edges_over_2x": 12,
+        "edges_over_5x": 1
+      },
+      {
+        "frame": 19,
+        "p99_ratio": 1.0939438502926575,
+        "p999_ratio": 1.5786655843227677,
+        "max_ratio": 7.0461472700057834,
+        "edges_over_2x": 34,
+        "edges_over_5x": 5
+      },
+      {
+        "frame": 24,
+        "p99_ratio": 1.1150777532851868,
+        "p999_ratio": 1.9655807952007696,
+        "max_ratio": 10.793442901120802,
+        "edges_over_2x": 41,
+        "edges_over_5x": 15
+      }
+    ],
+    "bones": {
+      "total": 45,
+      "deform": 36
+    }
+  }
+}

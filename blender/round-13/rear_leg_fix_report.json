@@ -1,0 +1,463 @@
+{
+  "source_round": 8,
+  "diagnosis": {
+    "animation_axis_bug": "foot lift and body bob were keyed on pose-local Z, which maps sideways for these vertical control bones",
+    "weight_bug": "opposite-side rear upper/lower groups affected the inner rear legs",
+    "ik_chain_orientation": "deterministic front/rear pole targets enabled; front chain includes scapula"
+  },
+  "weight_audit_before": {
+    "front": {
+      "audited_vertices": 3969,
+      "opposite_side_over_0_05": 221,
+      "cross_percent": 5.5681531872008065,
+      "mean_opposite_side_weight": 0.011687230373419474
+    },
+    "rear": {
+      "audited_vertices": 3983,
+      "opposite_side_over_0_05": 225,
+      "cross_percent": 5.649008285212152,
+      "mean_opposite_side_weight": 0.016317780825487512
+    }
+  },
+  "weight_repair": {
+    "vertices_repaired": 556,
+    "total_weight_mirrored_to_correct_side": 111.38033838001866,
+    "policy": "front+rear opposite-side limb weights mirrored to the same anatomical bone; global top-4 renormalization"
+  },
+  "weight_audit_after": {
+    "front": {
+      "audited_vertices": 3969,
+      "opposite_side_over_0_05": 0,
+      "cross_percent": 0.0,
+      "mean_opposite_side_weight": 0.0
+    },
+    "rear": {
+      "audited_vertices": 3983,
+      "opposite_side_over_0_05": 0,
+      "cross_percent": 0.0,
+      "mean_opposite_side_weight": 0.0
+    }
+  },
+  "mesh": {
+    "vertices": 21229,
+    "polygons": 23169,
+    "weighted_vertices": 21229,
+    "unweighted_vertices": 0,
+    "coverage_percent": 100.0,
+    "max_influences_per_vertex": 4
+  },
+  "animation": {
+    "action": "Pet_IK_Walk_RootMotion_FixedAxes_24f",
+    "fps": 24,
+    "frames": [
+      1,
+      25
+    ],
+    "stride_m": 0.16,
+    "intended_foot_lift_m": 0.045,
+    "measured_rear_swing_clearance_m": [
+      0.047999948263168335,
+      0.047999948263168335
+    ],
+    "max_foot_target_error_m": 5.960391135435083e-06,
+    "max_front_foot_target_error_m": 5.960391135435083e-06,
+    "max_rear_foot_target_error_m": 9.223385455563625e-08,
+    "pose_checks": [
+      {
+        "frame": 1,
+        "dimensions_m": [
+          0.9072533845901489,
+          0.2629712224006653,
+          0.6140668392181396
+        ],
+        "max_dimension_ratio_vs_frame1": 1.023581354211521
+      },
+      {
+        "frame": 7,
+        "dimensions_m": [
+          0.907760500907898,
+          0.27013692259788513,
+          0.6028616428375244
+        ],
+        "max_dimension_ratio_vs_frame1": 1.027248989953365
+      },
+      {
+        "frame": 13,
+        "dimensions_m": [
+          0.8978800773620605,
+          0.2629712224006653,
+          0.5999199151992798
+        ],
+        "max_dimension_ratio_vs_frame1": 1.0
+      },
+      {
+        "frame": 19,
+        "dimensions_m": [
+          0.907760500907898,
+          0.26749932765960693,
+          0.6149173974990845
+        ],
+        "max_dimension_ratio_vs_frame1": 1.0249991405849943
+      },
+      {
+        "frame": 24,
+        "dimensions_m": [
+          0.9074721336364746,
+          0.2629712224006653,
+          0.6143562197685242
+        ],
+        "max_dimension_ratio_vs_frame1": 1.024063719512377
+      }
+    ],
+    "foot_checks": [
+      {
+        "frame": 1,
+        "paw": "Front_Paw.L",
+        "error_m": 1.0457388198091238e-07,
+        "x_m": 0.10155203938484192,
+        "y_m": 0.047334764152765274,
+        "height_m": -0.27255651354789734
+      },
+      {
+        "frame": 1,
+        "paw": "Front_Paw.R",
+        "error_m": 2.4298032842910673e-06,
+        "x_m": 0.2615513205528259,
+        "y_m": -0.04733460769057274,
+        "height_m": -0.2725542485713959
+      },
+      {
+        "frame": 1,
+        "paw": "Rear_Paw.L",
+        "error_m": 9.223385455563625e-08,
+        "x_m": -0.0743192806839943,
+        "y_m": 0.052594248205423355,
+        "height_m": -0.2695566415786743
+      },
+      {
+        "frame": 1,
+        "paw": "Rear_Paw.R",
+        "error_m": 5.686408848491962e-08,
+        "x_m": -0.2343192994594574,
+        "y_m": -0.052594270557165146,
+        "height_m": -0.26955652236938477
+      },
+      {
+        "frame": 7,
+        "paw": "Front_Paw.L",
+        "error_m": 5.960391135435083e-06,
+        "x_m": 0.1815515160560608,
+        "y_m": 0.04733423888683319,
+        "height_m": -0.22756244242191315
+      },
+      {
+        "frame": 7,
+        "paw": "Front_Paw.R",
+        "error_m": 4.998491463748056e-06,
+        "x_m": 0.26155099272727966,
+        "y_m": -0.04733438789844513,
+        "height_m": -0.27255168557167053
+      },
+      {
+        "frame": 7,
+        "paw": "Rear_Paw.L",
+        "error_m": 9.06402249678704e-08,
+        "x_m": -0.07431928813457489,
+        "y_m": 0.052594251930713654,
+        "height_m": -0.2695566415786743
+      },
+      {
+        "frame": 7,
+        "paw": "Rear_Paw.R",
+        "error_m": 9.13266142616515e-08,
+        "x_m": -0.15431934595108032,
+        "y_m": -0.052594300359487534,
+        "height_m": -0.224556565284729
+      },
+      {
+        "frame": 13,
+        "paw": "Front_Paw.L",
+        "error_m": 1.6395510051150163e-07,
+        "x_m": 0.26155194640159607,
+        "y_m": 0.04733479768037796,
+        "height_m": -0.27255648374557495
+      },
+      {
+        "frame": 13,
+        "paw": "Front_Paw.R",
+        "error_m": 1.737759081973225e-07,
+        "x_m": 0.26155218482017517,
+        "y_m": -0.04733468219637871,
+        "height_m": -0.27255645394325256
+      },
+      {
+        "frame": 13,
+        "paw": "Rear_Paw.L",
+        "error_m": 6.006850114687196e-08,
+        "x_m": -0.07431931048631668,
+        "y_m": 0.052594251930713654,
+        "height_m": -0.26955661177635193
+      },
+      {
+        "frame": 13,
+        "paw": "Rear_Paw.R",
+        "error_m": 6.705522537231445e-08,
+        "x_m": -0.07431933283805847,
+        "y_m": -0.052594274282455444,
+        "height_m": -0.26955658197402954
+      },
+      {
+        "frame": 19,
+        "paw": "Front_Paw.L",
+        "error_m": 1.043081283569336e-07,
+        "x_m": 0.26155200600624084,
+        "y_m": 0.047334786504507065,
+        "height_m": -0.27255651354789734
+      },
+      {
+        "frame": 19,
+        "paw": "Front_Paw.R",
+        "error_m": 3.5165339459431055e-06,
+        "x_m": 0.3415527641773224,
+        "y_m": -0.04733436554670334,
+        "height_m": -0.22755996882915497
+      },
+      {
+        "frame": 19,
+        "paw": "Rear_Paw.L",
+        "error_m": 3.268928970170067e-08,
+        "x_m": 0.005680713802576065,
+        "y_m": 0.052594274282455444,
+        "height_m": -0.224556565284729
+      },
+      {
+        "frame": 19,
+        "paw": "Rear_Paw.R",
+        "error_m": 9.18569267238524e-08,
+        "x_m": -0.07431931793689728,
+        "y_m": -0.05259423702955246,
+        "height_m": -0.26955646276474
+      },
+      {
+        "frame": 24,
+        "paw": "Front_Paw.L",
+        "error_m": 1.6924465733171325e-07,
+        "x_m": 0.26155194640159607,
+        "y_m": 0.04733475670218468,
+        "height_m": -0.27255651354789734
+      },
+      {
+        "frame": 24,
+        "paw": "Front_Paw.R",
+        "error_m": 2.0429405045967736e-06,
+        "x_m": 0.41840335726737976,
+        "y_m": -0.04733463004231453,
+        "height_m": -0.2692212760448456
+      },
+      {
+        "frame": 24,
+        "paw": "Rear_Paw.L",
+        "error_m": 4.470348358154297e-08,
+        "x_m": 0.08253252506256104,
+        "y_m": 0.05259426683187485,
+        "height_m": -0.2662232518196106
+      },
+      {
+        "frame": 24,
+        "paw": "Rear_Paw.R",
+        "error_m": 7.233205377663523e-08,
+        "x_m": -0.07431934773921967,
+        "y_m": -0.052594270557165146,
+        "height_m": -0.26955652236938477
+      }
+    ],
+    "front_joint_checks": [
+      {
+        "frame": 1,
+        "side": "L",
+        "elbow_bend_degrees": 164.16141104072207,
+        "elbow_behind_shoulder_m": 0.04605676233768463,
+        "wrist_ahead_of_elbow_m": -0.015926629304885864,
+        "lateral_elbow_drift_m": 0.00929730013012886
+      },
+      {
+        "frame": 1,
+        "side": "R",
+        "elbow_bend_degrees": 171.74995611428133,
+        "elbow_behind_shoulder_m": -0.025302395224571228,
+        "wrist_ahead_of_elbow_m": 0.04938109219074249,
+        "lateral_elbow_drift_m": -0.0024391449987888336
+      },
+      {
+        "frame": 7,
+        "side": "L",
+        "elbow_bend_degrees": 152.58837949218747,
+        "elbow_behind_shoulder_m": 0.04451055824756622,
+        "wrist_ahead_of_elbow_m": -0.0054623037576675415,
+        "lateral_elbow_drift_m": 0.029060594737529755
+      },
+      {
+        "frame": 7,
+        "side": "R",
+        "elbow_bend_degrees": 169.5431219934502,
+        "elbow_behind_shoulder_m": -0.007238015532493591,
+        "wrist_ahead_of_elbow_m": 0.034439221024513245,
+        "lateral_elbow_drift_m": -0.0004939250648021698
+      },
+      {
+        "frame": 13,
+        "side": "L",
+        "elbow_bend_degrees": 164.89956324470367,
+        "elbow_behind_shoulder_m": 0.019709721207618713,
+        "wrist_ahead_of_elbow_m": 0.01525743305683136,
+        "lateral_elbow_drift_m": 0.00836845114827156
+      },
+      {
+        "frame": 13,
+        "side": "R",
+        "elbow_bend_degrees": 164.89949494281197,
+        "elbow_behind_shoulder_m": 0.0185663104057312,
+        "wrist_ahead_of_elbow_m": 0.017633646726608276,
+        "lateral_elbow_drift_m": -0.0014378465712070465
+      },
+      {
+        "frame": 19,
+        "side": "L",
+        "elbow_bend_degrees": 166.0193454383706,
+        "elbow_behind_shoulder_m": 0.02954009175300598,
+        "wrist_ahead_of_elbow_m": 0.0012149810791015625,
+        "lateral_elbow_drift_m": 0.006497468799352646
+      },
+      {
+        "frame": 19,
+        "side": "R",
+        "elbow_bend_degrees": 156.70056318388535,
+        "elbow_behind_shoulder_m": 0.016486406326293945,
+        "wrist_ahead_of_elbow_m": 0.033241450786590576,
+        "lateral_elbow_drift_m": -0.013726513832807541
+      },
+      {
+        "frame": 24,
+        "side": "L",
+        "elbow_bend_degrees": 164.2833299174068,
+        "elbow_behind_shoulder_m": 0.04527890682220459,
+        "wrist_ahead_of_elbow_m": -0.015126794576644897,
+        "lateral_elbow_drift_m": 0.00909799337387085
+      },
+      {
+        "frame": 24,
+        "side": "R",
+        "elbow_bend_degrees": 169.72460011969744,
+        "elbow_behind_shoulder_m": -0.020008116960525513,
+        "wrist_ahead_of_elbow_m": 0.04860362410545349,
+        "lateral_elbow_drift_m": -0.0007248111069202423
+      }
+    ],
+    "rear_joint_checks": [
+      {
+        "frame": 1,
+        "side": "L",
+        "knee_bend_degrees": 111.00532722131443,
+        "knee_forward_of_hip_m": 0.09149084985256195,
+        "hock_behind_knee_m": 0.06559844315052032
+      },
+      {
+        "frame": 1,
+        "side": "R",
+        "knee_bend_degrees": 111.00532722131443,
+        "knee_forward_of_hip_m": 0.03536146879196167,
+        "hock_behind_knee_m": 0.1259738653898239
+      },
+      {
+        "frame": 7,
+        "side": "L",
+        "knee_bend_degrees": 111.41475608092168,
+        "knee_forward_of_hip_m": 0.07853754609823227,
+        "hock_behind_knee_m": 0.08235766738653183
+      },
+      {
+        "frame": 7,
+        "side": "R",
+        "knee_bend_degrees": 87.32461740658417,
+        "knee_forward_of_hip_m": 0.06931186467409134,
+        "hock_behind_knee_m": 0.13675150275230408
+      },
+      {
+        "frame": 13,
+        "side": "L",
+        "knee_bend_degrees": 105.26992175260635,
+        "knee_forward_of_hip_m": 0.07023431360721588,
+        "hock_behind_knee_m": 0.10535147786140442
+      },
+      {
+        "frame": 13,
+        "side": "R",
+        "knee_bend_degrees": 105.26992175260635,
+        "knee_forward_of_hip_m": 0.07023431360721588,
+        "hock_behind_knee_m": 0.10535144060850143
+      },
+      {
+        "frame": 19,
+        "side": "L",
+        "knee_bend_degrees": 87.324610576395,
+        "knee_forward_of_hip_m": 0.09781514108181,
+        "hock_behind_knee_m": 0.10950027406215668
+      },
+      {
+        "frame": 19,
+        "side": "R",
+        "knee_bend_degrees": 111.41474242054333,
+        "knee_forward_of_hip_m": 0.050478432327508926,
+        "hock_behind_knee_m": 0.1125822402536869
+      },
+      {
+        "frame": 24,
+        "side": "L",
+        "knee_bend_degrees": 109.20313399748238,
+        "knee_forward_of_hip_m": 0.09257941413670778,
+        "hock_behind_knee_m": 0.06840024888515472
+      },
+      {
+        "frame": 24,
+        "side": "R",
+        "knee_bend_degrees": 111.10017805831839,
+        "knee_forward_of_hip_m": 0.03599070105701685,
+        "hock_behind_knee_m": 0.12533412501215935
+      }
+    ],
+    "pole_targets": [
+      {
+        "paw": "Front_Paw.L",
+        "pole_angle_degrees": -135.0,
+        "desired_bend_m_at_frame13": 0.019709721207618713,
+        "lateral_drift_m_at_frame13": 0.00836845114827156
+      },
+      {
+        "paw": "Front_Paw.R",
+        "pole_angle_degrees": -135.0,
+        "desired_bend_m_at_frame13": 0.0185663104057312,
+        "lateral_drift_m_at_frame13": 0.0014378465712070465
+      },
+      {
+        "paw": "Rear_Paw.L",
+        "pole_angle_degrees": 45.0,
+        "desired_bend_m_at_frame13": 0.07023431360721588,
+        "lateral_drift_m_at_frame13": 0.018464304506778717
+      },
+      {
+        "paw": "Rear_Paw.R",
+        "pole_angle_degrees": 45.0,
+        "desired_bend_m_at_frame13": 0.07023431360721588,
+        "lateral_drift_m_at_frame13": 0.018464308232069016
+      }
+    ]
+  },
+  "outputs": {
+    "blend": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/pet_unity_canine_walk_fixed.blend",
+    "fbx": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/pet_unity_canine_walk_fixed.fbx",
+    "report": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/rear_leg_fix_report.json",
+    "previews": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/previews",
+    "walk_gif": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-13/previews/pet_walk_fixed.gif"
+  },
+  "elapsed_seconds": 38.65
+}

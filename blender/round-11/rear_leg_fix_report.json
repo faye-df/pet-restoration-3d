@@ -1,0 +1,463 @@
+{
+  "source_round": 8,
+  "diagnosis": {
+    "animation_axis_bug": "foot lift and body bob were keyed on pose-local Z, which maps sideways for these vertical control bones",
+    "weight_bug": "opposite-side rear upper/lower groups affected the inner rear legs",
+    "ik_chain_orientation": "deterministic front/rear pole targets enabled; front chain includes scapula"
+  },
+  "weight_audit_before": {
+    "front": {
+      "audited_vertices": 3964,
+      "opposite_side_over_0_05": 222,
+      "cross_percent": 5.600403632694248,
+      "mean_opposite_side_weight": 0.011721367998701797
+    },
+    "rear": {
+      "audited_vertices": 3951,
+      "opposite_side_over_0_05": 225,
+      "cross_percent": 5.694760820045558,
+      "mean_opposite_side_weight": 0.016449942047055622
+    }
+  },
+  "weight_repair": {
+    "vertices_repaired": 557,
+    "total_weight_mirrored_to_correct_side": 111.45722377477068,
+    "policy": "front+rear opposite-side limb weights mirrored to the same anatomical bone; global top-4 renormalization"
+  },
+  "weight_audit_after": {
+    "front": {
+      "audited_vertices": 3964,
+      "opposite_side_over_0_05": 0,
+      "cross_percent": 0.0,
+      "mean_opposite_side_weight": 0.0
+    },
+    "rear": {
+      "audited_vertices": 3951,
+      "opposite_side_over_0_05": 0,
+      "cross_percent": 0.0,
+      "mean_opposite_side_weight": 0.0
+    }
+  },
+  "mesh": {
+    "vertices": 21229,
+    "polygons": 23169,
+    "weighted_vertices": 21229,
+    "unweighted_vertices": 0,
+    "coverage_percent": 100.0,
+    "max_influences_per_vertex": 4
+  },
+  "animation": {
+    "action": "Pet_IK_Walk_RootMotion_FixedAxes_24f",
+    "fps": 24,
+    "frames": [
+      1,
+      25
+    ],
+    "stride_m": 0.16,
+    "intended_foot_lift_m": 0.045,
+    "measured_rear_swing_clearance_m": [
+      0.047999992966651917,
+      0.04799997806549072
+    ],
+    "max_foot_target_error_m": 5.955563706057532e-06,
+    "max_front_foot_target_error_m": 5.955563706057532e-06,
+    "max_rear_foot_target_error_m": 1.0543295516136963e-07,
+    "pose_checks": [
+      {
+        "frame": 1,
+        "dimensions_m": [
+          0.9072533845901489,
+          0.27657437324523926,
+          0.6092101335525513
+        ],
+        "max_dimension_ratio_vs_frame1": 1.01505392447594
+      },
+      {
+        "frame": 7,
+        "dimensions_m": [
+          0.907760500907898,
+          0.2991938591003418,
+          0.6047670841217041
+        ],
+        "max_dimension_ratio_vs_frame1": 1.0884075845332695
+      },
+      {
+        "frame": 13,
+        "dimensions_m": [
+          0.8978800773620605,
+          0.27489137649536133,
+          0.600175142288208
+        ],
+        "max_dimension_ratio_vs_frame1": 1.0
+      },
+      {
+        "frame": 19,
+        "dimensions_m": [
+          0.907760500907898,
+          0.2888142764568329,
+          0.6113792061805725
+        ],
+        "max_dimension_ratio_vs_frame1": 1.0506487331067895
+      },
+      {
+        "frame": 24,
+        "dimensions_m": [
+          0.9074721336364746,
+          0.2761734426021576,
+          0.6095559000968933
+        ],
+        "max_dimension_ratio_vs_frame1": 1.015630033881311
+      }
+    ],
+    "foot_checks": [
+      {
+        "frame": 1,
+        "paw": "Front_Paw.L",
+        "error_m": 8.854913952950174e-08,
+        "x_m": 0.1015520915389061,
+        "y_m": 0.04733474552631378,
+        "height_m": -0.2725565433502197
+      },
+      {
+        "frame": 1,
+        "paw": "Front_Paw.R",
+        "error_m": 2.495913919040884e-06,
+        "x_m": 0.26155129075050354,
+        "y_m": -0.04733460396528244,
+        "height_m": -0.2725541889667511
+      },
+      {
+        "frame": 1,
+        "paw": "Rear_Paw.L",
+        "error_m": 9.664238818789159e-08,
+        "x_m": -0.07431931793689728,
+        "y_m": 0.05259428545832634,
+        "height_m": -0.2695566415786743
+      },
+      {
+        "frame": 1,
+        "paw": "Rear_Paw.R",
+        "error_m": 7.15604898046648e-08,
+        "x_m": -0.23431932926177979,
+        "y_m": -0.052594248205423355,
+        "height_m": -0.2695564925670624
+      },
+      {
+        "frame": 7,
+        "paw": "Front_Paw.L",
+        "error_m": 5.955563706057532e-06,
+        "x_m": 0.1815524697303772,
+        "y_m": 0.04733399674296379,
+        "height_m": -0.22756242752075195
+      },
+      {
+        "frame": 7,
+        "paw": "Front_Paw.R",
+        "error_m": 5.033473791651864e-06,
+        "x_m": 0.2615509629249573,
+        "y_m": -0.047334395349025726,
+        "height_m": -0.27255165576934814
+      },
+      {
+        "frame": 7,
+        "paw": "Rear_Paw.L",
+        "error_m": 6.537857940340133e-08,
+        "x_m": -0.07431931793689728,
+        "y_m": 0.052594274282455444,
+        "height_m": -0.26955661177635193
+      },
+      {
+        "frame": 7,
+        "paw": "Rear_Paw.R",
+        "error_m": 3.725290298461914e-08,
+        "x_m": -0.15431930124759674,
+        "y_m": -0.05259425938129425,
+        "height_m": -0.2245565503835678
+      },
+      {
+        "frame": 13,
+        "paw": "Front_Paw.L",
+        "error_m": 1.6049041769309353e-07,
+        "x_m": 0.26155197620391846,
+        "y_m": 0.04733474180102348,
+        "height_m": -0.27255648374557495
+      },
+      {
+        "frame": 13,
+        "paw": "Front_Paw.R",
+        "error_m": 1.0751835770653048e-07,
+        "x_m": 0.26155218482017517,
+        "y_m": -0.04733479768037796,
+        "height_m": -0.27255648374557495
+      },
+      {
+        "frame": 13,
+        "paw": "Rear_Paw.L",
+        "error_m": 9.8843121241194e-08,
+        "x_m": -0.07431933283805847,
+        "y_m": 0.05259428173303604,
+        "height_m": -0.2695566415786743
+      },
+      {
+        "frame": 13,
+        "paw": "Rear_Paw.R",
+        "error_m": 4.344397704933063e-08,
+        "x_m": -0.07431934028863907,
+        "y_m": -0.05259424448013306,
+        "height_m": -0.26955655217170715
+      },
+      {
+        "frame": 19,
+        "paw": "Front_Paw.L",
+        "error_m": 1.0771179418862582e-07,
+        "x_m": 0.26155200600624084,
+        "y_m": 0.04733477905392647,
+        "height_m": -0.27255651354789734
+      },
+      {
+        "frame": 19,
+        "paw": "Front_Paw.R",
+        "error_m": 3.5264334672465677e-06,
+        "x_m": 0.341553270816803,
+        "y_m": -0.047334425151348114,
+        "height_m": -0.22755984961986542
+      },
+      {
+        "frame": 19,
+        "paw": "Rear_Paw.L",
+        "error_m": 1.038414229807731e-07,
+        "x_m": 0.005680624395608902,
+        "y_m": 0.05259432643651962,
+        "height_m": -0.224556565284729
+      },
+      {
+        "frame": 19,
+        "paw": "Rear_Paw.R",
+        "error_m": 1.0543295516136963e-07,
+        "x_m": -0.07431934773921967,
+        "y_m": -0.05259425565600395,
+        "height_m": -0.26955646276474
+      },
+      {
+        "frame": 24,
+        "paw": "Front_Paw.L",
+        "error_m": 1.6875194986024685e-07,
+        "x_m": 0.26155194640159607,
+        "y_m": 0.04733477905392647,
+        "height_m": -0.27255648374557495
+      },
+      {
+        "frame": 24,
+        "paw": "Front_Paw.R",
+        "error_m": 2.0129291662797724e-06,
+        "x_m": 0.4184032678604126,
+        "y_m": -0.04733467847108841,
+        "height_m": -0.26922133564949036
+      },
+      {
+        "frame": 24,
+        "paw": "Rear_Paw.L",
+        "error_m": 8.560065398421926e-08,
+        "x_m": 0.08253249526023865,
+        "y_m": 0.05259426683187485,
+        "height_m": -0.266223281621933
+      },
+      {
+        "frame": 24,
+        "paw": "Rear_Paw.R",
+        "error_m": 5.385589709431291e-08,
+        "x_m": -0.07431933283805847,
+        "y_m": -0.05259425565600395,
+        "height_m": -0.26955652236938477
+      }
+    ],
+    "front_joint_checks": [
+      {
+        "frame": 1,
+        "side": "L",
+        "elbow_bend_degrees": 164.16141104072207,
+        "elbow_behind_shoulder_m": 0.03470967710018158,
+        "wrist_ahead_of_elbow_m": -0.004748716950416565,
+        "lateral_elbow_drift_m": -0.01679978519678116
+      },
+      {
+        "frame": 1,
+        "side": "R",
+        "elbow_bend_degrees": 171.74995611428133,
+        "elbow_behind_shoulder_m": -0.034276023507118225,
+        "wrist_ahead_of_elbow_m": 0.05007578432559967,
+        "lateral_elbow_drift_m": 0.006376862525939941
+      },
+      {
+        "frame": 7,
+        "side": "L",
+        "elbow_bend_degrees": 152.58837949218747,
+        "elbow_behind_shoulder_m": 0.043156698346138,
+        "wrist_ahead_of_elbow_m": 0.01983502507209778,
+        "lateral_elbow_drift_m": -0.009871996939182281
+      },
+      {
+        "frame": 7,
+        "side": "R",
+        "elbow_bend_degrees": 169.5431219934502,
+        "elbow_behind_shoulder_m": -0.01905679702758789,
+        "wrist_ahead_of_elbow_m": 0.03657716512680054,
+        "lateral_elbow_drift_m": 0.01154327392578125
+      },
+      {
+        "frame": 13,
+        "side": "L",
+        "elbow_bend_degrees": 164.89956324470367,
+        "elbow_behind_shoulder_m": 0.007818162441253662,
+        "wrist_ahead_of_elbow_m": 0.025040149688720703,
+        "lateral_elbow_drift_m": -0.016419023275375366
+      },
+      {
+        "frame": 13,
+        "side": "R",
+        "elbow_bend_degrees": 164.89950860319033,
+        "elbow_behind_shoulder_m": 0.0037514567375183105,
+        "wrist_ahead_of_elbow_m": 0.026738271117210388,
+        "lateral_elbow_drift_m": 0.019676752388477325
+      },
+      {
+        "frame": 19,
+        "side": "L",
+        "elbow_bend_degrees": 166.0193454383706,
+        "elbow_behind_shoulder_m": 0.017278745770454407,
+        "wrist_ahead_of_elbow_m": 0.008897528052330017,
+        "lateral_elbow_drift_m": -0.015871349722146988
+      },
+      {
+        "frame": 19,
+        "side": "R",
+        "elbow_bend_degrees": 156.70056318388535,
+        "elbow_behind_shoulder_m": 0.006109774112701416,
+        "wrist_ahead_of_elbow_m": 0.05225113034248352,
+        "lateral_elbow_drift_m": 0.018416404724121094
+      },
+      {
+        "frame": 24,
+        "side": "L",
+        "elbow_bend_degrees": 164.2833299174068,
+        "elbow_behind_shoulder_m": 0.033850014209747314,
+        "wrist_ahead_of_elbow_m": -0.004163116216659546,
+        "lateral_elbow_drift_m": -0.016779068857431412
+      },
+      {
+        "frame": 24,
+        "side": "R",
+        "elbow_bend_degrees": 169.72460011969744,
+        "elbow_behind_shoulder_m": -0.031343162059783936,
+        "wrist_ahead_of_elbow_m": 0.05052921175956726,
+        "lateral_elbow_drift_m": 0.01107102632522583
+      }
+    ],
+    "rear_joint_checks": [
+      {
+        "frame": 1,
+        "side": "L",
+        "knee_bend_degrees": 111.00530673074692,
+        "knee_forward_of_hip_m": 0.08039639890193939,
+        "hock_behind_knee_m": 0.048843614757061005
+      },
+      {
+        "frame": 1,
+        "side": "R",
+        "knee_bend_degrees": 111.00532039112527,
+        "knee_forward_of_hip_m": 0.02426701784133911,
+        "hock_behind_knee_m": 0.10921905934810638
+      },
+      {
+        "frame": 7,
+        "side": "L",
+        "knee_bend_degrees": 111.41474242054333,
+        "knee_forward_of_hip_m": 0.06725385785102844,
+        "hock_behind_knee_m": 0.06530830264091492
+      },
+      {
+        "frame": 7,
+        "side": "R",
+        "knee_bend_degrees": 87.32462423677335,
+        "knee_forward_of_hip_m": 0.0546950064599514,
+        "hock_behind_knee_m": 0.11521438136696815
+      },
+      {
+        "frame": 13,
+        "side": "L",
+        "knee_bend_degrees": 105.26992175260635,
+        "knee_forward_of_hip_m": 0.05794897302985191,
+        "hock_behind_knee_m": 0.08692346885800362
+      },
+      {
+        "frame": 13,
+        "side": "R",
+        "knee_bend_degrees": 105.26992858279552,
+        "knee_forward_of_hip_m": 0.05794897302985191,
+        "hock_behind_knee_m": 0.08692344650626183
+      },
+      {
+        "frame": 19,
+        "side": "L",
+        "knee_bend_degrees": 87.3245900858275,
+        "knee_forward_of_hip_m": 0.08319827914237976,
+        "hock_behind_knee_m": 0.08796323463320732
+      },
+      {
+        "frame": 19,
+        "side": "R",
+        "knee_bend_degrees": 111.4147492507325,
+        "knee_forward_of_hip_m": 0.0391947366297245,
+        "hock_behind_knee_m": 0.09553288295865059
+      },
+      {
+        "frame": 24,
+        "side": "L",
+        "knee_bend_degrees": 109.20312033710404,
+        "knee_forward_of_hip_m": 0.08121444750577211,
+        "hock_behind_knee_m": 0.05127480998635292
+      },
+      {
+        "frame": 24,
+        "side": "R",
+        "knee_bend_degrees": 111.10018488850757,
+        "knee_forward_of_hip_m": 0.02489516604691744,
+        "hock_behind_knee_m": 0.10857565701007843
+      }
+    ],
+    "pole_targets": [
+      {
+        "paw": "Front_Paw.L",
+        "pole_angle_degrees": -180.0,
+        "desired_bend_m_at_frame13": 0.007818162441253662,
+        "lateral_drift_m_at_frame13": 0.016419023275375366
+      },
+      {
+        "paw": "Front_Paw.R",
+        "pole_angle_degrees": -90.0,
+        "desired_bend_m_at_frame13": 0.0037514567375183105,
+        "lateral_drift_m_at_frame13": 0.019676752388477325
+      },
+      {
+        "paw": "Rear_Paw.L",
+        "pole_angle_degrees": 0.0,
+        "desired_bend_m_at_frame13": 0.05794897302985191,
+        "lateral_drift_m_at_frame13": 0.04376877099275589
+      },
+      {
+        "paw": "Rear_Paw.R",
+        "pole_angle_degrees": 0.0,
+        "desired_bend_m_at_frame13": 0.05794897302985191,
+        "lateral_drift_m_at_frame13": 0.0437687411904335
+      }
+    ]
+  },
+  "outputs": {
+    "blend": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-11/pet_unity_canine_walk_fixed.blend",
+    "fbx": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-11/pet_unity_canine_walk_fixed.fbx",
+    "report": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-11/rear_leg_fix_report.json",
+    "previews": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-11/previews",
+    "walk_gif": "/Users/phoebedufei/Documents/ChatGPT/3D/blender/round-11/previews/pet_walk_fixed.gif"
+  },
+  "elapsed_seconds": 42.255
+}

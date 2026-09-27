@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "current_candidate": "round-13",
+  "stable_rollback": "round-09",
+  "git_branch": "codex/pet-rig-pipeline",
+  "versions": [
+    {
+      "version": "round-09",
+      "status": "stable",
+      "summary": "Fixed animation axes and repaired rear-leg weights; no pole targets.",
+      "blend": {
+        "path": "blender/round-09/pet_unity_canine_walk_fixed.blend",
+        "sha256": "3bb411ca2fe8048d8a72d875d624031260e36febe1f33d1868efb63bb05d7fee"
+      },
+      "fbx": {
+        "path": "blender/round-09/pet_unity_canine_walk_fixed.fbx",
+        "sha256": "c4699fed3ee8ed3e77002118f7eecc80de4eaf980082f528a073b8d4e2c607b4"
+      }
+    },
+    {
+      "version": "round-10",
+      "status": "rejected",
+      "summary": "Semantic-only weights removed cross-weighting but caused severe edge stretching.",
+      "blend": {
+        "path": "blender/round-10/semantic-walk/pet_unity_canine_walk_fixed.blend",
+        "sha256": "9d120d7044dbd99fdc5c2f2e4bb3b8883ea9b2b8a12bd090c7619a3e8a09d523"
+      }
+    },
+    {
+      "version": "round-11",
+      "status": "rejected",
+      "summary": "Four-limb cleanup and poles v1; rejected for excessive lateral knee drift.",
+      "blend": {
+        "path": "blender/round-11/pet_unity_canine_walk_fixed.blend",
+        "sha256": "2fbb9caf2727e9fbd9bd44cfb207b83e68bf76935a1445ccd7fbaf704cb4410f"
+      }
+    },
+    {
+      "version": "round-12",
+      "status": "superseded",
+      "summary": "Planar pole scoring; superseded after finding pose-dependent bounds in the audit.",
+      "blend": {
+        "path": "blender/round-12/pet_unity_canine_walk_fixed.blend",
+        "sha256": "8f8bf253399b3270b1907c56dde109f8c048d1b19d2f6c35ef698e78fd51fd93"
+      }
+    },
+    {
+      "version": "round-13",
+      "status": "candidate",
+      "summary": "Static semantic bounds, zero four-limb cross weights after reload, pole targets and converged front IK.",
+      "metrics": {
+        "vertices": 21229,
+        "polygons": 23169,
+        "deform_bones": 36,
+        "total_blender_bones": 45,
+        "coverage_percent": 100.0,
+        "max_influences_per_vertex": 4,
+        "front_cross_weight_percent": 0.0,
+        "rear_cross_weight_percent": 0.0,
+        "max_front_ik_error_m": 0.000005960391135435083,
+        "max_rear_ik_error_m": 0.00000009223385455563625,
+        "rear_swing_clearance_m": 0.047999948263168335
+      },
+      "blend": {
+        "path": "blender/round-13/pet_unity_canine_walk_fixed.blend",
+        "sha256": "5d5254ed485227250ad76d56a3915f93fa01da5207343ec2086d03a8e8e3040b"
+      },
+      "fbx": {
+        "path": "blender/round-13/pet_unity_canine_walk_fixed.fbx",
+        "sha256": "60b736c8d05de468f9c813ac4b3e2c0beea34a71dc24c51ced0ce13cc6565050"
+      },
+      "report": {
+        "path": "blender/round-13/rear_leg_fix_report.json",
+        "sha256": "9d3bb08b104c4b8fd5c62a5de758758fb72a013b97da14689ff7a452f4dd0685"
+      }
+    }
+  ],
+  "comparison_report": {
+    "path": "blender/round-10/semantic_vs_voxel_ab_report.json",
+    "sha256": "8f54932be26ad007e8c913ce323990d5f88838e96a26310a73ee67ac131ed48f"
+  }
+}
+
