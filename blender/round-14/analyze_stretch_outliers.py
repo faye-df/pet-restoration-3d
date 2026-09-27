@@ -1,12 +1,19 @@
 import bpy
 import json
+import os
 from collections import Counter, defaultdict, deque
 from pathlib import Path
 
 
 ROOT = Path("/Users/phoebedufei/Documents/ChatGPT/3D")
-SOURCE = ROOT / "blender/round-13/pet_unity_canine_walk_fixed.blend"
-OUT = ROOT / "blender/round-14/stretch_outlier_analysis.json"
+SOURCE = Path(os.environ.get(
+    "PET_SOURCE_BLEND",
+    str(ROOT / "blender/round-13/pet_unity_canine_walk_fixed.blend"),
+))
+OUT = Path(os.environ.get(
+    "PET_ANALYSIS_OUT",
+    str(ROOT / "blender/round-14/stretch_outlier_analysis.json"),
+))
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 

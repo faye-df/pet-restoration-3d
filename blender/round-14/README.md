@@ -70,6 +70,8 @@ weights, detect deformation failures with motion, then repair the bad topology.
 - `verify_topology.py`: independent reload integrity check.
 - `render_validation_views.py`: front and three-quarter renders.
 - `motion_bridge_fix_report.json`: complete cut and stretch metrics.
+- `residual_stretch_analysis.json`: endpoint weights for every remaining edge
+  above 2x, used to design and reject Round 15 smoothing.
 - `topology_integrity_report.json`: topology/material/rig integrity comparison.
 - `pet_unity_canine_motion_bridge_fixed.blend`: editable candidate.
 - `pet_unity_canine_motion_bridge_fixed.fbx`: Unity import candidate.

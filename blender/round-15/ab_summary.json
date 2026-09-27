@@ -1,0 +1,63 @@
+{
+  "source": "blender/round-14/pet_unity_canine_motion_bridge_fixed.blend",
+  "status": "rejected",
+  "baseline": {
+    "active_vertex_count": 33,
+    "maximum_edge_stretch": 3.9549426637564116,
+    "maximum_edges_over_2x_per_sampled_frame": 15,
+    "maximum_edges_over_5x_per_sampled_frame": 0
+  },
+  "method": "same-side one-ring diffusion plus geometric-side projection, top-4 normalization, applied only to motion-proven outlier vertices",
+  "variants": [
+    {
+      "name": "projection_only",
+      "alpha": 0.0,
+      "iterations": 1,
+      "maximum_edge_stretch": 4.769102729056782,
+      "maximum_edges_over_2x_per_sampled_frame": 20,
+      "maximum_edges_over_5x_per_sampled_frame": 0
+    },
+    {
+      "name": "a010_i1",
+      "alpha": 0.1,
+      "iterations": 1,
+      "maximum_edge_stretch": 4.742799683436026,
+      "maximum_edges_over_2x_per_sampled_frame": 20,
+      "maximum_edges_over_5x_per_sampled_frame": 0
+    },
+    {
+      "name": "a010_i2",
+      "alpha": 0.1,
+      "iterations": 2,
+      "maximum_edge_stretch": 4.719643384667483,
+      "maximum_edges_over_2x_per_sampled_frame": 20,
+      "maximum_edges_over_5x_per_sampled_frame": 0
+    },
+    {
+      "name": "a025_i1",
+      "alpha": 0.25,
+      "iterations": 1,
+      "maximum_edge_stretch": 4.703351949366929,
+      "maximum_edges_over_2x_per_sampled_frame": 19,
+      "maximum_edges_over_5x_per_sampled_frame": 0
+    },
+    {
+      "name": "a025_i3",
+      "alpha": 0.25,
+      "iterations": 3,
+      "maximum_edge_stretch": 4.624183829493248,
+      "maximum_edges_over_2x_per_sampled_frame": 18,
+      "maximum_edges_over_5x_per_sampled_frame": 0
+    },
+    {
+      "name": "a050_i1",
+      "alpha": 0.5,
+      "iterations": 1,
+      "maximum_edge_stretch": 4.637630157094168,
+      "maximum_edges_over_2x_per_sampled_frame": 18,
+      "maximum_edges_over_5x_per_sampled_frame": 0
+    }
+  ],
+  "decision": "reject all variants; preserve round-14 candidate",
+  "reason": "every variant increased the maximum edge stretch, showing that these vertices are legitimate torso-limb transition blends rather than a simple side-weight error"
+}

@@ -79,6 +79,19 @@ Scripts, JSON reports, and this decision log use normal Git.
 - Requires Unity/PICO import and close-range underside inspection before being
   promoted to `stable`.
 
+### Round 15 — rejected
+
+- Tested six local residual-weight refinements on the 33 vertices incident to
+  Round 14 edges above 2x stretch.
+- Variants combined same-side one-ring graph diffusion, hard geometric-side
+  projection, top-four influence selection, and normalization.
+- All variants increased the worst stretch from 3.95x to 4.62–4.77x; some also
+  increased the maximum number of edges above 2x from 15 to 18–20.
+- Diagnosis: these are legitimate shoulder/abdomen/tail-root transition blends,
+  not simple left/right contamination. Generic smoothing spreads mixed weights,
+  while hard projection removes necessary torso-to-limb blending.
+- No Round 15 model is promoted or uploaded. Round 14 remains current.
+
 ## Reproduction
 
 The current generator is parameterized rather than tied to one output folder:

@@ -115,6 +115,28 @@
       "integrity_report": {
         "path": "blender/round-14/topology_integrity_report.json",
         "sha256": "3f640900701fb7450fd441cad885e05f4aba00a724cacc0cb7c7f1860ac18214"
+      },
+      "residual_analysis": {
+        "path": "blender/round-14/residual_stretch_analysis.json",
+        "sha256": "4f5316cc75619275a279ba1d9b985e8c9155b10d177143da65dd87573b55c3e3"
+      }
+    },
+    {
+      "version": "round-15",
+      "status": "rejected",
+      "summary": "Six motion-localized graph-smoothing and side-projection variants all increased maximum residual stretch; no binary promoted.",
+      "metrics": {
+        "active_vertices": 33,
+        "variants_tested": 6,
+        "baseline_maximum_edge_stretch": 3.9549426637564116,
+        "best_variant_maximum_edge_stretch": 4.624183829493248,
+        "worst_variant_maximum_edge_stretch": 4.769102729056782,
+        "baseline_maximum_edges_over_2x": 15,
+        "best_variant_maximum_edges_over_2x": 18
+      },
+      "report": {
+        "path": "blender/round-15/ab_summary.json",
+        "sha256": "9b42f0368b0c07ae3adeb5eddcc3a739013688ad35d1912b2be97d56b539dd07"
       }
     }
   ],
